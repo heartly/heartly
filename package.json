@@ -1,0 +1,22 @@
+{
+  "name": "heartly",
+  "version": "0.0.1",
+  "description": "A CLI tool for providing friendly helpful documentation to code repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heartly/heartly.git"
+  },
+  "author": "Jeff Wainwright <yowainwright@gmail.com> (https://jeffry.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heartly/heartly/issues"
+  },
+  "homepage": "https://github.com/heartly/heartly#readme",
+  "devDependencies": {
+    "lerna": "^2.5.1"
+  }
+}
