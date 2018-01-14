@@ -14,8 +14,6 @@
   },
   "homepage": "https://github.com/heartly/heartly#readme",
   "devDependencies": {
-    "eslint": "^4.15.0",
-    "lerna": "^2.5.1",
-    "prettier": "^1.9.2"
+    "eslint": "^4.15.0"
   }
 }
