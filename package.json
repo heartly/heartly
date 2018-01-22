@@ -1,7 +1,7 @@
 {
   "name": "heartly",
   "version": "0.0.1",
-  "description": "A CLI tool for providing friendly helpful documentation to code repositories",
+  "description": "Heartly CLI is tool for providing friendly helpful documentation to code repositories",
   "main": "index.js",
   "scripts": {
     "test": "test"
