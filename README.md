@@ -1,6 +1,6 @@
-<h1 align="center">Heartly CLI 💕</h1>
+<h1 align="center">Heartly 💕</h1>
 
-<h5 align="center">Heartly CLI is a tool for providing friendly helpful documentation to code repositories</h5>
+<h5 align="center">Heartly is a CLI tool for providing friendly helpful documentation to code repositories</h5>
 
 ---
 
