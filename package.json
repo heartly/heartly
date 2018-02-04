@@ -14,6 +14,9 @@
   },
   "homepage": "https://github.com/heartly/heartly#readme",
   "devDependencies": {
-    "eslint": "^4.15.0"
+    "assert": "^1.4.1",
+    "commander": "^2.13.0",
+    "eslint": "^4.17.0",
+    "mocha": "^5.0.0"
   }
 }
