@@ -1,0 +1,19 @@
+{
+  "name": "@heartly/code-of-conduct-boilerplate",
+  "version": "0.0.1",
+  "description": "Heartly CODE_OF_CONDUCT_BOILERPLATE.md",
+  "main": "CODE_OF_CONDUCT_BOILERPLATE.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heartly/heartly-code-of-conduct-boilerplate.git"
+  },
+  "author": "Jeff Wainwright <yowainwright@gmail.com> (https://jeffry.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heartly/heartly-code-of-conduct-boilerplate/issues"
+  },
+  "homepage": "https://github.com/heartly/heartly-code-of-conduct-boilerplate#readme"
+}
