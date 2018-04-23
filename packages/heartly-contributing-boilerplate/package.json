@@ -1,0 +1,11 @@
+{
+  "name": "@heartly/contributing-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "CONTRIBUTING.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Wainwright <yowainwright@gmail.com> (https://jeffry.in)",
+  "license": "MIT"
+}
