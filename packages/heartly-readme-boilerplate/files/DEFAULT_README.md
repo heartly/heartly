@@ -1,16 +1,14 @@
-<h1>Default Readme</h1>
+# Default Readme
 
-<h5>This repository is a README boilerplate.</h5>
+##### This repository is a README boilerplate.
 
 ---
 
-<p align="center">
-  <a href="#setup">Setup</a>&nbsp;&nbsp;
-  <a href="#standards">Stardards</a>&nbsp;&nbsp;
-  <a href="#api-documentation">API Documentation</a>&nbsp;&nbsp;
-  <a href="#testing">Testing</a>&nbsp;&nbsp;
-  <a href="#cite">Cites & Thanks</a>
-</p>
+[Setup](#setup)&nbsp;&nbsp;
+[Stardards](#standards)&nbsp;&nbsp;
+[API Documentation](#api-documentation)&nbsp;&nbsp;
+[Testing](#testing)&nbsp;&nbsp;
+[Cites & Thanks](#cite)
 
 ---
 
@@ -18,9 +16,11 @@ Readmes are used to describe the contents of code repositories. Besides the titl
 
 ## Setup
 
-Install 
+Install
 ```bash
+
 # how to install
+
 ```
 
 ---
@@ -39,7 +39,7 @@ There is more than 1 way to approach API documentation. For smaller APIs, readme
 
 ## Testing
 
-Currently testing is manual. 
+Currently testing is manual.
 
 ---
 
