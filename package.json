@@ -8,7 +8,11 @@
     "test": "test"
   },
   "repository": "git+https://github.com/heartly/heartly.git",
-  "author": "Jeff Wainwright <yowainwright@gmail.com> (https://jeffry.in)",
+  "author": {
+    "name": "Jeff Wainwright",
+    "email": "yowainwright@gmail.com",
+    "twitter": "@yowainwright"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/heartly/heartly/issues"
@@ -22,6 +26,7 @@
     "eslint": "^4.17.0",
     "eslint-config-dollarshaveclub": "^3.1.0",
     "jest": "^22.4.3",
-    "lerna": "^2.10.2"
+    "lerna": "^2.10.2",
+    "weallbehave": "^1.2.0"
   }
 }
