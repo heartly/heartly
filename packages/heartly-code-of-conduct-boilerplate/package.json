@@ -4,6 +4,7 @@
   "description": "Heartly CODE_OF_CONDUCT_BOILERPLATE.md",
   "main": "CODE_OF_CONDUCT_BOILERPLATE.md",
   "scripts": {
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
