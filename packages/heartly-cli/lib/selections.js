@@ -31,15 +31,17 @@
 //   },
 // ]
 
-exports.path = './files/'
+const path = './files/'
 
 exports.configFiles = [
   {
     name: 'codeowners',
+    message: 'Codeowner files (`CODEOWNERS`) provide an easier way to assign code reviews',
     file: `${path}CODEOWNERS`,
   },
   {
     name: 'readme',
+    message: 'Readmes provide information developers about what a repository is and what it does',
     file: `${path}README.md`,
   },
 ]
@@ -47,14 +49,17 @@ exports.configFiles = [
 exports.packages = [
   {
     capability: 'markdown-linting',
+    message: 'Markdown linting is used to improve markdown',
     package: 'markdownlint-cli',
   },
   {
     capability: 'markdown-spelling',
+    message: 'Markdown spelling is used to improve spelling in markdown files',
     package: 'markdown-spellcheck',
   },
   {
     capability: 'git-hooks',
+    message: 'Git hooks are run when ',
     package: 'husky',
   },
   {
@@ -67,6 +72,13 @@ exports.packages = [
   },
 ]
 
-exports.scripts = [
+const makeDir = (name) => `mkdir ${name}`
+const copyFile = (name) => ``
 
-]
+exports.githubScript = {
+  name: 'github-templates',
+  message: 'Github Templates are templates used by Github for pull requests, issues, and contributing',
+  action: '',
+}
+
+
