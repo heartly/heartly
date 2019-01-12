@@ -1,3 +1,8 @@
+/**
+ * Selections
+ * Heartly CLI selections
+ */
+
 // exports.features = [
 //   {
 //     message: 'The Code of Conduct provides information about how to contribute to a repository',
@@ -72,13 +77,8 @@ exports.packages = [
   },
 ]
 
-const makeDir = (name) => `mkdir ${name}`
-const copyFile = (name) => ``
-
 exports.githubScript = {
   name: 'github-templates',
   message: 'Github Templates are templates used by Github for pull requests, issues, and contributing',
   action: '',
 }
-
-
