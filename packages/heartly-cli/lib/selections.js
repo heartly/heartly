@@ -36,7 +36,7 @@
 //   },
 // ]
 
-const path = './files/'
+exports.path = process.env.HEARTLY_FILES_PATH || './files/'
 
 exports.configFiles = [
   {
