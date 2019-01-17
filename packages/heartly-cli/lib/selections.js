@@ -3,40 +3,7 @@
  * Heartly CLI selections
  */
 
-// exports.features = [
-//   {
-//     message: 'The Code of Conduct provides information about how to contribute to a repository',
-//     name: 'code-of-conduct',
-//     options: ['default'],
-//   },
-//   {
-//     message: 'Codeowner files (`CODEOWNERS`) provide an easier way to assign code reviews',
-//     name: 'codeowners',
-//     options: ['default'],
-//   },
-//   {
-//     message: 'Script are commands that can be run via npm to do something, like lint or test',
-//     name: 'npm-scripts',
-//     options: ['default'],
-//   },
-//   {
-//     message: 'Github Templates are use to communicate to developers what is expected for code reviews and issues',
-//     name: 'github-templates',
-//     options: ['default'],
-//   },
-//   {
-//     message: 'Readmes provide information developers about what a repository is and what it does',
-//     name: 'readme',
-//     options: ['default'],
-//   },
-//   {
-//     message: 'Continuous integration helps developers test code',
-//     name: 'continuous-integration',
-//     options: ['default'],
-//   },
-// ]
-
-exports.path = process.env.HEARTLY_FILES_PATH || './files/'
+const path = process.env.HEARTLY_FILES_PATH || './files/'
 
 exports.configFiles = [
   {
@@ -48,6 +15,26 @@ exports.configFiles = [
     name: 'readme',
     message: 'Readmes provide information developers about what a repository is and what it does',
     file: `${path}README.md`,
+  },
+  {
+    name: 'code-of-conduct',
+    message: 'Code of conduct documents provides information about acceptable communication',
+    file: `${path}CODE_OF_CONDUCT.md`,
+  },
+  {
+    name: 'license',
+    message: 'The license provide law regarding a repositorys use',
+    file: `${path}LICENSE`,
+  },
+  {
+    name: 'contributors',
+    message: 'The contributor document provides information on how to contribute to a repository',
+    file: `${path}CONTRIBUTORS.md`,
+  },
+  {
+    name: 'changelog',
+    message: 'The changelog provides information about updates to a repository; usually by release.',
+    file: `${path}CONTRIBUTORS.md`,
   },
 ]
 
@@ -80,5 +67,11 @@ exports.packages = [
 exports.githubScript = {
   name: 'github-templates',
   message: 'Github Templates are templates used by Github for pull requests, issues, and contributing',
+  action: '',
+}
+
+exports.docScript = {
+  name: 'doc-templates',
+  message: 'Repository documents are markdown and text documents used to provide information, communication expectations, and laws regarding repository use',
   action: '',
 }
