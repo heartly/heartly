@@ -4,6 +4,7 @@
  */
 const fs = require('fs-extra')
 const mkdirp = require('mkdirp')
+const { exec } = require('child_process')
 
 /**
  * makeDir
@@ -11,7 +12,9 @@ const mkdirp = require('mkdirp')
  * makes a directory
  */
 exports.makeDir = (directoryName) =>
-  mkdirp(directoryName, (err) => err ? console.error(err) : console.info(`Made the ${directoryName}`))
+  mkdirp(directoryName, (err) => err
+    ? console.error(err)
+    : console.info(`Made the ${directoryName}`))
 
 /**
  * copyFile
@@ -27,3 +30,10 @@ exports.copyFile = async (fileToBeCopiedLocation, fileToBeCopiedNewLocation) => 
     console.error(err)
   }
 }
+
+/**
+ * installInternalModules
+ * @param {devDepPackages} array
+ */
+exports.installInternalModules = (devDepPackages) =>
+  devDepPackages.forEach(pkg => exec(`npm install ${pkg}`))
