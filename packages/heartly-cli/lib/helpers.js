@@ -11,7 +11,9 @@ const mkdirp = require('mkdirp')
  * makes a directory
  */
 exports.makeDir = (directoryName) =>
-  mkdirp(directoryName, (err) => err ? console.error(err) : console.info(`Made the ${directoryName}`))
+  mkdirp(directoryName, (err) => err
+    ? console.error(err)
+    : console.info(`Made the ${directoryName}`))
 
 /**
  * copyFile
