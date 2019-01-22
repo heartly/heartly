@@ -1,10 +1,31 @@
 /**
  * Selections
+ * //////////////////////
  * Heartly CLI selections
+ * //////////////////////
+ * - This file contains config selections
+ * - Config Selections are defaults
  */
 
-const readPath = process.env.HEARTLY_FILES_READPATH || './files/'
+const { makeDir, makeFile, copyFile, installInternalModules } = require('../lib/helpers')
 
+
+/**
+ * //////////////////////
+ * Config Selections
+ * /////////////////////
+ */
+
+/**
+ * paths
+ * the variables below provide paths to default config files
+ */
+const README = require('../../heartly-readme-boilerplate/files/DEFAULT_README.md')
+
+/**
+ * configFiles
+ * The configFiles array contains information and references to Heartly CLI's default config files
+ */
 exports.configFiles = [
   {
     name: 'codeowners',
@@ -15,7 +36,7 @@ exports.configFiles = [
   {
     name: 'readme',
     message: 'Readmes provide information developers about what a repository is and what it does',
-    file: `${readPath}README.md`,
+    file: README,
     dest: '',
   },
   {
@@ -33,17 +54,21 @@ exports.configFiles = [
   {
     name: 'contributors',
     message: 'The contributor document provides information on how to contribute to a repository',
-    file: `${readPath}CONTRIBUTORS.md`,
+    file: `CONTRIBUTORS.md`,
     dest: '',
   },
   {
     name: 'changelog',
     message: 'The changelog provides information about updates to a repository; usually by release.',
-    file: `${readPath}CONTRIBUTORS.md`,
+    file: ,
     dest: '',
   },
 ]
 
+/**
+ * packages
+ * Heartly CLI default packages loaded when a new repository is made
+ */
 exports.packages = [
   {
     capability: 'markdown-linting',
@@ -72,18 +97,43 @@ exports.packages = [
   },
 ]
 
+
+/**
+ * //////////////////////
+ * Selection Actions
+ * /////////////////////
+ */
+
+/**
+ * loadInitialModules
+ * @param {packages} array
+ */
+exports.loadInitialModules = (...packages) => installInternalModules(packages)
+
+/**
+ * initGithubTemplateScript
+ * initializes default github templates
+ */
 exports.initGithubTemplateScript = {
   name: 'init-github-templates',
   message: 'The Init Github Templates Script creates initial Github Templates for a Github Repository. Github Templates are templates used by Github for pull requests, issues, and contributing',
   action: ``,
 }
 
+/**
+ * initDocsScript
+ * initializes default docs
+ */
 exports.initDocsScript = {
   name: 'init-doc-templates',
   message: 'The Init Docs Templates Script creates initial Docs for a Github Repository. Repository documents are markdown and text documents used to provide information, communication expectations, and laws regarding repository use',
   action: ``,
 }
 
+/**
+ * initCiScript
+ * initializes default CI
+ */
 exports.initCiScript = {
   name: 'init-ci-setup',
   message: 'The Init Github Templates Script creates a initial .yml file for running Continuous Integration within a Github Repository. Continuous Integration is a process of checking code and repository health in one git branch before it is merged into another git branch.',
