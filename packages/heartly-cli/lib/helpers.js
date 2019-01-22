@@ -35,5 +35,14 @@ exports.copyFile = async (fileToBeCopiedLocation, fileToBeCopiedNewLocation) => 
  * installInternalModules
  * @param {devDepPackages} array
  */
-exports.installInternalModules = (devDepPackages) =>
-  devDepPackages.forEach(pkg => exec(`npm install ${pkg}`))
+exports.installInternalModules = (depPackages, devEnv = '-D') =>
+  depPackages.forEach(pkg => exec(`npm install ${pkg} ${devEnv}`))
+
+/**
+ * makeFile
+ * @param {name} string
+ * @param {initialText} string
+ */
+exports.makeFile = (name, initialText) => !name
+  ? console.error('HEARTLY: a name is required')
+  : exec(`touch ${name} > ${initialText || ''}`)
