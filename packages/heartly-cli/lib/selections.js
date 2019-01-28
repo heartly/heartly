@@ -7,8 +7,12 @@
  * - Config Selections are defaults
  */
 
-const { makeDir, makeFile, copyFile, installInternalModules } = require('../lib/helpers')
-
+const {
+  // makeDir,
+  // makeFile,
+  // copyFile,
+  installInternalModules,
+} = require('../lib/helpers')
 
 /**
  * //////////////////////
@@ -30,7 +34,7 @@ exports.configFiles = [
   {
     name: 'codeowners',
     message: 'Codeowner files (`CODEOWNERS`) provide an easier way to assign code reviews',
-    file: `${readPath}CODEOWNERS`,
+    file: `CODEOWNERS`,
     dest: '',
   },
   {
@@ -42,13 +46,13 @@ exports.configFiles = [
   {
     name: 'code-of-conduct',
     message: 'Code of conduct documents provides information about acceptable communication',
-    file: `${readPath}CODE_OF_CONDUCT.md`,
+    file: `$CODE_OF_CONDUCT.md`,
     dest: '',
   },
   {
     name: 'license',
     message: 'The license provide law regarding a repositorys use',
-    file: `${readPath}LICENSE`,
+    file: `LICENSE`,
     dest: '',
   },
   {
@@ -60,7 +64,7 @@ exports.configFiles = [
   {
     name: 'changelog',
     message: 'The changelog provides information about updates to a repository; usually by release.',
-    file: ,
+    file: '',
     dest: '',
   },
 ]
@@ -96,7 +100,6 @@ exports.packages = [
     package: 'conventional-changelog-cli',
   },
 ]
-
 
 /**
  * //////////////////////

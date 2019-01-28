@@ -1,0 +1,25 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+ - packages/heartly-code-of-conduct-boilerplate/CODE_OF_CONDUCT.md
+behavior
+behaviors
+ - packages/heartly-code-of-conduct-boilerplate/README.md
+sharability
+Heartly
+ - packages/heartly-readme-boilerplate/files/DEFAULT_README.md
+Readmes
+readmes
+ - packages/heartly-readme-boilerplate/README.md
+centered
+marky-markdown
+linebreak
+Github
+Insua
+NPM's
+Revin
+Guillen
+Arjan
+Singh
