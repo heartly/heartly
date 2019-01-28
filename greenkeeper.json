@@ -1,0 +1,13 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/heartly-cli/package.json",
+        "packages/heartly-code-of-conduct-boilerplate/package.json",
+        "packages/heartly-github-templates/package.json",
+        "packages/heartly-readme-boilerplate/package.json"
+      ]
+    }
+  }
+}
