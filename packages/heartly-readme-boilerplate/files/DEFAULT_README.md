@@ -5,7 +5,7 @@
 ---
 
 [Setup](#setup)&nbsp;&nbsp;
-[Stardards](#standards)&nbsp;&nbsp;
+[Standards](#standards)&nbsp;&nbsp;
 [API Documentation](#api-documentation)&nbsp;&nbsp;
 [Testing](#testing)&nbsp;&nbsp;
 [Cites & Thanks](#cite)

@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="#setup">Setup</a>&nbsp;&nbsp;
-  <a href="#standards">Stardards</a>&nbsp;&nbsp;
+  <a href="#standards">Standards</a>&nbsp;&nbsp;
   <a href="#headers">Headers</a>&nbsp;&nbsp;
   <a href="#navigation">Navigation</a>&nbsp;&nbsp;
   <a href="#api-documentation">API Documentation</a>&nbsp;&nbsp;
