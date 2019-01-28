@@ -1,5 +1,7 @@
 # Heartly 💕
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/heartly/heartly.svg)](https://greenkeeper.io/)
+
 Heartly is a tool for providing friendly and helpful documentation to code repositories.
 
 Heartly is a tool form providing helpful documentation to code repositories.
