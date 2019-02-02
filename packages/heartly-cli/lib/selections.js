@@ -25,6 +25,10 @@ const {
  * the variables below provide paths to default config files
  */
 const README = require('../../heartly-readme-boilerplate/files/DEFAULT_README.md')
+const CONTRIBUTING_TEMPLATE = require('../../heartly-github-templates/CONTRIBUTING.md')
+const ISSUE_TEMPLATE = require('../../heartly-github-templates/ISSUE_TEMPLATE.md')
+const PULL_REQUEST_TEMPLATE = require('../../heartly-github-templates/PULL_REQUEST_TEMPLATE.md')
+const CODE_OF_CONDUCT = require('../../heartly-code-of-conduct-boilerplate/CODE_OF_CONDUCT.md')
 
 /**
  * configFiles
@@ -46,7 +50,7 @@ exports.configFiles = [
   {
     name: 'code-of-conduct',
     message: 'Code of conduct documents provides information about acceptable communication',
-    file: `$CODE_OF_CONDUCT.md`,
+    file: CODE_OF_CONDUCT,
     dest: '',
   },
   {
@@ -58,14 +62,26 @@ exports.configFiles = [
   {
     name: 'contributors',
     message: 'The contributor document provides information on how to contribute to a repository',
-    file: `CONTRIBUTORS.md`,
+    file: CONTRIBUTING_TEMPLATE,
     dest: '',
   },
   {
     name: 'changelog',
     message: 'The changelog provides information about updates to a repository; usually by release.',
-    file: '',
+    file: `CHANGELOG`,
     dest: '',
+  },
+  {
+    name: 'issue-template',
+    message: 'The issue template provides a way to create common patterns for creating issues',
+    file: ISSUE_TEMPLATE,
+    dest: '.github/',
+  },
+  {
+    name: 'pull-request-template',
+    message: 'The pull request template provides a way to create common patterns for creating pull requests',
+    file: PULL_REQUEST_TEMPLATE,
+    dest: '.github/',
   },
 ]
 
