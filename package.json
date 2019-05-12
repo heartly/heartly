@@ -42,7 +42,7 @@
     "es-check": "^5.0.0",
     "eslint": "^5.12.1",
     "eslint-config-dollarshaveclub": "^3.1.0",
-    "fs-extra": "^7.0.1",
+    "fs-extra": "^8.0.0",
     "husky": "^2.0.0",
     "jest": "^24.0.0",
     "lerna": "^3.10.7",
