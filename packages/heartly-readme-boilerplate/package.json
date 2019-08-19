@@ -30,7 +30,7 @@
     "@babel/preset-env": "^7.0.0-beta.40",
     "eslint": "^6.0.0",
     "eslint-config-dollarshaveclub": "^3.0.5",
-    "markdownlint-cli": "^0.17.0",
+    "markdownlint-cli": "^0.18.0",
     "write-good": "^1.0.1"
   }
 }
