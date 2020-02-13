@@ -17,17 +17,18 @@ The Heartly CLI tool (work in progress) can be used to install basic tools to ge
 ## Setup
 
 Install
+
 ```bash
 
 # how to install
 
-yarn @heartly/cli 
+yarn @heartly/cli
 
 ```
 
 ## Standards
 
-Currently there are no standards set. 
+Currently there are no standards set.
 
 ## API Documentation
 
@@ -46,4 +47,3 @@ File an [issues](/issues) or submit a [pull request](/pulls)
 ## Cites & Thanks
 
 Made for [Heartly](https://github.com/heartly). Initial work done by [Jeff Wainwright](https://github.com/yowainwright). 💕
-
