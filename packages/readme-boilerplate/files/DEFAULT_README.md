@@ -17,6 +17,7 @@ Readmes are used to describe the contents of code repositories. Besides the titl
 ## Setup
 
 Install
+
 ```bash
 
 # how to install
@@ -52,4 +53,3 @@ Contributing guidelines define how to file [issues](/issues), contributors, subm
 <h2 id="cite">Cites & Thanks</h2>
 
 Thanks [Heartly](https://github.com/heartly)! 💕
-
