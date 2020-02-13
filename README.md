@@ -1,16 +1,15 @@
 # Heartly 💕
 
-#### A set of tools for easier documentation and config
+#### Heartly is tool for providing friendly helpful documentation and config to code repositories
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/heartly/heartly.svg)](https://greenkeeper.io/)
-
-Heartly is a set of tools to make it easier to provide helpful documentation and config to code repositories
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 Heartly is a MonoRepo. It contains multiple packages to empower you to make your documentation and config easier.
 
 ## Packages
 
-Listed below are packages contained within Heartly. 
+Listed below are packages contained within Heartly.
 
 ### `@heartly/cli`
 
@@ -24,7 +23,7 @@ Provides an initial Code Of Conduct for a repository.
 
 Provides initial Github Templates for a repository.
 
-### `@heartly/jest-config` 
+### `@heartly/jest-config`
 
 Provides initial config for Jest testing.
 
@@ -34,10 +33,9 @@ Provides initial config for Prettier code manacuring.
 
 ### `@heartly/readme-boilerplate`
 
-Provides and initial boilerplate for a readme. 
+Provides and initial boilerplate for a readme.
 
 **Note:** many/if not all of these packages are in heavy development.
-
 
 ## Cites and thanks
 

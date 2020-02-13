@@ -1,7 +1,7 @@
 {
   "name": "@heartly/root",
   "version": "0.0.1",
-  "description": "Heartly is tool for providing friendly helpful documentation to code repositories",
+  "description": "Heartly is tool for providing friendly helpful documentation and config to code repositories",
   "main": "index.js",
   "scripts": {
     "chore:delete-changelog-branch": "if git show-ref --quiet refs/heads/chore-changelog; then git branch -D chore-changelog; fi",
@@ -10,18 +10,20 @@
     "chore:setup-next-work": "git checkout master && npm run chore:delete-changelog-branch",
     "chore:pr": "git add . && git commit -m '[chore] updates changelog' --no-verify && git push origin chore-changelog -f",
     "chore:setup-changelog": "git checkout master && git pull",
-    "chore": "npm run chore:delete-changelog-branch && npm run chore:branch && npm run chore:changelog && npm run chore:pr && npm run chore:setup-next-work",
+    "chore": "yarn chore:delete-changelog-branch && yarn chore:branch && yarn chore:changelog && yarn chore:pr && yarn chore:setup-next-work",
+    "format": "prettier-standard --format",
     "lint": "eslint . --fix",
     "lint:ci": "eslint .",
     "markdownlint": "markdownlint *.md",
-    "prepush": "npm test",
+    "prepush": "yarn test",
+    "precommit": "yarn test && yarn format",
     "pre-commit-msg": "Echo 'Running pre-commit checks...' && exit 0",
-    "postpublish": "git tag $npm_package_version && git push origin --tags && npm run chore",
-    "release": "npm run lint && npm run build && npm test && npm run report:coverage",
+    "postpublish": "git tag $npm_package_version && git push origin --tags && yarn chore",
+    "release": "yarn lint && yarn build && npm test && yarn report:coverage",
     "report:coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
     "spelling": "mdspell '**/*.md' '!**/node_modules/**/*.md' --ignore-numbers",
     "spelling:ci": "mdspell '**/*.md' '!**/node_modules/**/*.md' --ignore-numbers --report",
-    "test": "npm run lint"
+    "test": "yarn lint"
   },
   "repository": "git+https://github.com/heartly/heartly.git",
   "author": {
@@ -40,8 +42,6 @@
     "babel-core": "^7.0.0-0",
     "babel-jest": "^24.0.0",
     "es-check": "^5.0.0",
-    "eslint": "^6.0.0",
-    "eslint-config-dollarshaveclub": "^3.1.0",
     "fs-extra": "^8.0.0",
     "husky": "^4.0.2",
     "jest": "^24.0.0",
@@ -51,10 +51,14 @@
     "mkdirp": "^1.0.2",
     "prettier-standard": "^16.1.0",
     "weallbehave": "^1.2.0",
-    "write-good": "^1.0.1"
+    "write-good": "^1.0.2"
   },
   "dependencies": {
     "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "markdownlint": "^0.19.0"
   }
 }
