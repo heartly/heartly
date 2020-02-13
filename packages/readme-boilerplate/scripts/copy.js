@@ -7,7 +7,7 @@ exec('cp files/DEFAULT_README.md README.md', (err, stdout, stderr) => {
     console.error(err.stack)
     console.error(stdout.toString())
     console.error(stderr.toString())
-    console.error('Please let the Heartly crew know at https://github.com/heartly. Heartly Readme Boilerplate exiting...')
+    console.error('Please let the Heartly crew know at https://github.com/heartly/heartly. Heartly Readme Boilerplate exiting...💕')
     process.exit(1)
   }
 })
