@@ -12,19 +12,19 @@ Heartly is a MonoRepo. It contains multiple packages to empower you to make your
 
 Listed below are packages contained within Heartly. 
 
-### `@heartly/cli`
+### [`@heartly/cli`](/packages/cli)
 
 A CLI tool for doing initial Heartly setup.
 
-### `@heartly/code-of-conduct-boilerplate`
+### [`@heartly/code-of-conduct-boilerplate`](/packages/code-of-conduct-boilerplate)
 
 Provides an initial Code Of Conduct for a repository.
 
-### `@heartly/github-templates`
+### [`@heartly/github-templates`](/packages/github-templates)
 
 Provides initial Github Templates for a repository.
 
-### `@heartly/jest-config` 
+### [`@heartly/jest-config`](/packages/jest-config)
 
 Provides initial config for Jest testing.
 
