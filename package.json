@@ -15,8 +15,6 @@
     "lint": "eslint . --fix",
     "lint:ci": "eslint .",
     "markdownlint": "markdownlint *.md",
-    "prepush": "yarn test",
-    "precommit": "yarn test && yarn format",
     "pre-commit-msg": "Echo 'Running pre-commit checks...' && exit 0",
     "postpublish": "git tag $npm_package_version && git push origin --tags && yarn chore",
     "release": "yarn lint && yarn build && npm test && yarn report:coverage",
@@ -60,5 +58,11 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "markdownlint": "^0.19.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test && yarn format",
+      "pre-push": "yarn test"
+    }
   }
 }
