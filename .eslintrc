@@ -1,5 +1,5 @@
 {
-  "extends": "dollarshaveclub",
+  "extends": "standard",
   "globals": {
     "expect": true,
     "test": true
