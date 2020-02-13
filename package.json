@@ -1,5 +1,5 @@
 {
-  "name": "heartly",
+  "name": "@heartly/root",
   "version": "0.0.1",
   "description": "Heartly is tool for providing friendly helpful documentation to code repositories",
   "main": "index.js",

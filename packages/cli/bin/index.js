@@ -5,7 +5,7 @@
  * command line execution of Heartly
  */
 
-const program = require('commander')
+const program = require('./commander')
 const selections = require('../lib/selections')
 
 program
