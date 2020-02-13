@@ -2,8 +2,8 @@
  * Helpers
  * Heartly CLI helper functions
  */
-const fs = require('fs-extra')
-const mkdirp = require('mkdirp')
+const fs = require('./fs-extra')
+const mkdirp = require('./mkdirp')
 const { exec } = require('child_process')
 
 /**

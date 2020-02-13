@@ -1,8 +1,6 @@
 /**
  * Selections
- * //////////////////////
  * Heartly CLI selections
- * //////////////////////
  * - This file contains config selections
  * - Config Selections are defaults
  */
@@ -12,19 +10,17 @@ const {
   // makeFile,
   // copyFile,
   installInternalModules,
-} = require('../lib/helpers')
+} = require('./helpers')
 
 /**
- * //////////////////////
  * Config Selections
- * /////////////////////
  */
 
 /**
  * paths
  * the variables below provide paths to default config files
  */
-const README = require('../../heartly-readme-boilerplate/files/DEFAULT_README.md')
+const README = require('../../readme-boilerplate/files/DEFAULT_README.md')
 const CONTRIBUTING_TEMPLATE = require('../../heartly-github-templates/CONTRIBUTING.md')
 const ISSUE_TEMPLATE = require('../../heartly-github-templates/ISSUE_TEMPLATE.md')
 const PULL_REQUEST_TEMPLATE = require('../../heartly-github-templates/PULL_REQUEST_TEMPLATE.md')
@@ -118,9 +114,7 @@ exports.packages = [
 ]
 
 /**
- * //////////////////////
  * Selection Actions
- * /////////////////////
  */
 
 /**
