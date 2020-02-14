@@ -2,11 +2,12 @@
 
 ---
 
-[Setup](#setup)&nbsp;&nbsp;
-[Standards](#standards)&nbsp;&nbsp;
-[API Documentation](#api-documentation)&nbsp;&nbsp;
-[Testing](#testing)&nbsp;&nbsp;
-[Cites & Thanks](#cite)
+<p align="center">
+  <a href="#setup">Setup</a>&nbsp;&nbsp;
+  <a href="#standards">Standards</a>&nbsp;&nbsp;
+  <a href="#api-documentation">API Documentation</a>&nbsp;&nbsp;
+  <a href="#testing">Testing</a>&nbsp;&nbsp;
+</p>
 
 ---
 
@@ -38,6 +39,6 @@ File an [issues](/issues) or submit a [pull request](/pulls)
 
 ---
 
-## Cites & Thanks
+Made for [Heartly](https://github.com/heartly). Initial work done by [Jeff Wainwright](https://github.com/yowainwright).
 
-Made for [Heartly](https://github.com/heartly). Initial work done by [Jeff Wainwright](https://github.com/yowainwright). 💕
+<p align="center">💕</p>
