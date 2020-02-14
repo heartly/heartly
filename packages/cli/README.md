@@ -1,7 +1,5 @@
 # `@heartly/cli` 💕
 
-##### The heartly cli tool!
-
 ---
 
 [Setup](#setup)&nbsp;&nbsp;
@@ -12,15 +10,11 @@
 
 ---
 
-The Heartly CLI tool (work in progress) can be used to install basic tools to get your new repository up-and-running with basic standard config tools—like documentation, linting, etc.
+The Heartly CLI tool (work in progress) installs tools to get repositories up-and-running with standard configuration tools for things like documentation, formatting, linting, etc.
 
 ## Setup
 
-Install
-
 ```bash
-
-# how to install
 
 yarn @heartly/cli
 
