@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A cli for Heartly",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "test"
   },

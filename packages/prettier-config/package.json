@@ -1,0 +1,15 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "Heartly's prettier config",
+  "main": "index.js",
+  "author": "Jeffry Wainwright <yowainwright@gmail.com> (jeffry.in)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "prettier-standard": "^16.1.0"
+  }
+}

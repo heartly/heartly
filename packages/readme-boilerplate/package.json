@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Heartly README.md boilerplate",
   "main": "README.md",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "copy-heartly-default-readme": "./scripts/copy.js"
   },
