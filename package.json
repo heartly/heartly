@@ -40,7 +40,7 @@
     "babel-core": "^7.0.0-0",
     "babel-jest": "^25.1.0",
     "es-check": "^5.0.0",
-    "fs-extra": "^8.0.0",
+    "fs-extra": "^9.0.0",
     "husky": "^4.0.2",
     "jest": "^25.1.0",
     "lerna": "^3.10.7",
