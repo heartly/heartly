@@ -1,8 +1,8 @@
 {
-  "name": "y",
+  "name": "@heartly/prettier-config",
   "version": "0.0.1",
-  "description": "Heartly's prettier config",
-  "main": "index.js",
+  "description": "A useful prettier-config for using prettier within repositories",
+  "main": "dist/index.js",
   "author": "Jeffry Wainwright <yowainwright@gmail.com> (jeffry.in)",
   "license": "MIT",
   "publishConfig": {
