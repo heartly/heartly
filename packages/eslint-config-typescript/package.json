@@ -10,7 +10,8 @@
     "dist/index.js",
     "dist/prettier.js",
     "dist/prettier.config.js",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsc"
