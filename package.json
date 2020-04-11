@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist --force-local --stict",
-    "build": "lerna exec --no-bail --stream yarn build",
+    "build": "lerna exec --no-bail --stream yarn build && yarn test:files-exist",
     "chore:delete-changelog-branch": "if git show-ref --quiet refs/heads/chore-changelog; then git branch -D chore-changelog; fi",
     "chore:branch": "git checkout -b chore-changelog",
     "chore:changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
