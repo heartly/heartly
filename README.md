@@ -1,6 +1,6 @@
 # Heartly 💕
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) [![Greenkeeper badge](https://badges.greenkeeper.io/heartly/heartly.svg)](https://greenkeeper.io/)
 
 Heartly is tool for providing helpful documentation and config to code repositories.
 
