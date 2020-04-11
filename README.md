@@ -1,6 +1,6 @@
 # Heartly 💕
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) 
+![Typed with TypeScript](https://flat.badgen.net/badge/icon/Typed?icon=typescript&label&labelColor=blue&color=555555)
 [![Greenkeeper badge](https://badges.greenkeeper.io/heartly/heartly.svg)](https://greenkeeper.io/)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/heartly/heartly.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/heartly/heartly/alerts/)
