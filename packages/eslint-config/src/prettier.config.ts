@@ -1,19 +1,19 @@
 export type PrettierConfig = {
-  semi: boolean;
-  trailingComma: string;
-  printWidth: number;
-  useTabs: boolean;
-  singleQuote: boolean;
-  jsxSingleQuote: boolean;
-};
+  semi: boolean
+  trailingComma: string
+  printWidth: number
+  useTabs: boolean
+  singleQuote: boolean
+  jsxSingleQuote: boolean
+}
 
 export const prettierConfig = {
   semi: false,
-  trailingComma: "all",
+  trailingComma: 'all',
   printWidth: 120,
   useTabs: false,
   singleQuote: true,
   jsxSingleQuote: true, // only needed for React projects
-} as PrettierConfig;
+} as PrettierConfig
 
-export default prettierConfig;
+export default prettierConfig
