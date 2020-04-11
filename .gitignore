@@ -59,4 +59,5 @@ typings/
 .env
 
 .DS_Store
+.npmrc
 
