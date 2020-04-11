@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.prettierConfig = {
     semi: false,
-    trailingComma: "all",
+    trailingComma: 'all',
     printWidth: 120,
     useTabs: false,
     singleQuote: true,
