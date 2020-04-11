@@ -14,11 +14,11 @@ Heartly provides tools for friendlier coding.
 
 The table below contains the current Heartly toolset.
 
-| Tool                                                                         | Purpose                           |
-| ---------------------------------------------------------------------------- | --------------------------------- |
-| **[@cheartly/eslint-config](/packages/eslint-config)**                       | easy eslint config                |
-| **[@cheartly/eslint-config-typescript](/packages/eslint-config-typescript)** | easy eslint config for typescript |
-| **[@cheartly/prettier-config](/packages/prettier-config)**                   | easy prettier config              |
+| Tool                                                                        | Purpose                           |
+| --------------------------------------------------------------------------- | --------------------------------- |
+| **[@heartly/eslint-config](/packages/eslint-config)**                       | easy eslint config                |
+| **[@heartly/eslint-config-typescript](/packages/eslint-config-typescript)** | easy eslint config for typescript |
+| **[@heartly/prettier-config](/packages/prettier-config)**                   | easy prettier config              |
 
 ---
 
