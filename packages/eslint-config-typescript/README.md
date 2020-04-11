@@ -35,4 +35,4 @@ Fin 👨‍🎨
 
 ---
 
-Heartly](/) is inspired by wanting friendly coding. 💕
+[Heartly](/) is inspired by wanting friendly coding. 💕

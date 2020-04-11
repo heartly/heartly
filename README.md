@@ -32,4 +32,4 @@ Listed below are other Heartly projects and plans
 
 ---
 
-Heartly is inspired by wanting friendly coding. 💕
+[Heartly](https://github.com/heartly) is inspired by wanting friendly coding. 💕
