@@ -1,33 +1,28 @@
 export type EslintConfig = {
-  parser: string;
-  plugins: string[];
-  extends: string[];
+  parser: string
+  plugins: string[]
+  extends: string[]
   globals: {
-    expect: boolean;
-    test: boolean;
-  };
+    expect: boolean
+    test: boolean
+  }
   parserOptions: {
-    ecmaVersion: number;
-    sourceType: string;
-  };
-};
+    ecmaVersion: number
+    sourceType: string
+  }
+}
 
 export const eslintConfig = {
-  plugins: ["react", "prettier", "json", "jest", "filenames", "import"],
-  extends: [
-    "standard",
-    "plugin:react/recommended",
-    "prettier/react",
-    "plugin:prettier/recommended",
-  ],
+  plugins: ['react', 'prettier', 'json', 'jest', 'filenames', 'import'],
+  extends: ['standard', 'plugin:react/recommended', 'prettier/react', 'plugin:prettier/recommended'],
   globals: {
     expect: true,
     test: true,
   },
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module",
+    sourceType: 'module',
   },
-} as EslintConfig;
+} as EslintConfig
 
-export default eslintConfig;
+export default eslintConfig

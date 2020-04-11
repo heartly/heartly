@@ -1,3 +1,3 @@
-import prettier from "./prettier.config";
+import prettier from './prettier.config'
 
-export default prettier;
+export default prettier
