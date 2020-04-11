@@ -1,9 +1,10 @@
 # Heartly 💕
 
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) 
+[![Greenkeeper badge](https://badges.greenkeeper.io/heartly/heartly.svg)](https://greenkeeper.io/)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/heartly/heartly.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/heartly/heartly/alerts/)
 [![DeepScan grade](https://deepscan.io/api/teams/8416/projects/10768/branches/153351/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=8416&pid=10768&bid=153351)
-
 
 Heartly is tool for providing helpful documentation and config to code repositories.
 
