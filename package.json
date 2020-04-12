@@ -111,6 +111,7 @@
           "root",
           "eslint-config",
           "eslint-config-typescript",
+          "markdownlint-config",
           "prettier-config"
         ]
       ],
