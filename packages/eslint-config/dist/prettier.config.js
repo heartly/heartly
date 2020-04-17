@@ -8,4 +8,4 @@ exports.prettierConfig = {
     singleQuote: true,
     jsxSingleQuote: true,
 };
-exports.default = exports.prettierConfig;
+module.exports = exports.prettierConfig;

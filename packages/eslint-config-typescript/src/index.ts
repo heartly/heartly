@@ -25,4 +25,4 @@ export const eslintConfig = {
   },
 } as EslintConfig
 
-export default eslintConfig
+module.exports = eslintConfig
