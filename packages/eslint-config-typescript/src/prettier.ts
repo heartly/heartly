@@ -1,3 +1,1 @@
-import prettier from './prettier.config'
-
-export default prettier
+module.exports = require('./prettier.config')

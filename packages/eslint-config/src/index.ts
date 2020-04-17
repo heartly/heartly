@@ -13,7 +13,7 @@ export type EslintConfig = {
 }
 
 export const eslintConfig = {
-  plugins: ['react', 'prettier', 'json', 'jest', 'filenames', 'import'],
+  plugins: ['react', 'standard', 'prettier', 'json', 'jest', 'filenames', 'import', 'markdown'],
   extends: ['standard', 'plugin:react/recommended', 'prettier/react', 'plugin:prettier/recommended'],
   globals: {
     expect: true,
@@ -25,4 +25,4 @@ export const eslintConfig = {
   },
 } as EslintConfig
 
-export default eslintConfig
+module.exports = eslintConfig

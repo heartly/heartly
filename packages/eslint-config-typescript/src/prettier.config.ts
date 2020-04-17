@@ -16,4 +16,4 @@ export const prettierConfig = {
   jsxSingleQuote: true, // only needed for React projects
 } as PrettierConfig
 
-export default prettierConfig
+module.exports = prettierConfig

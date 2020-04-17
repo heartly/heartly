@@ -16,4 +16,4 @@ exports.eslintConfig = {
         sourceType: 'module',
     },
 };
-exports.default = exports.eslintConfig;
+module.exports = exports.eslintConfig;

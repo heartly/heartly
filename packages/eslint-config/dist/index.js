@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.eslintConfig = {
-    plugins: ['react', 'prettier', 'json', 'jest', 'filenames', 'import'],
+    plugins: ['react', 'standard', 'prettier', 'json', 'jest', 'filenames', 'import', 'markdown'],
     extends: ['standard', 'plugin:react/recommended', 'prettier/react', 'plugin:prettier/recommended'],
     globals: {
         expect: true,
@@ -12,4 +12,4 @@ exports.eslintConfig = {
         sourceType: 'module',
     },
 };
-exports.default = exports.eslintConfig;
+module.exports = exports.eslintConfig;
