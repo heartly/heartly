@@ -15,6 +15,6 @@
   },
   "rules": {
     "no-console": "off",
-    "no-var-requires": true
+    "@typescript-eslint/no-var-requires": 0
   }
 }
