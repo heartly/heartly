@@ -1,2 +1,1 @@
-var prettier = require('./prettier.config');
-module.exports = prettier;
+module.exports = require('./prettier.config');
