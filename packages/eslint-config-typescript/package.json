@@ -19,7 +19,9 @@
     "test": "npm run test:index-exists && npm run test:prettier-exists && npm run test:prettier-config-exists",
     "test:index-exists": "path-exists ./dist/index.js && echo '✅`./dist/index.js` exists' || (echo '😭`./dist/index.js` does not exist'; . exit)",
     "test:prettier-exists": "path-exists ./dist/prettier.js && echo '✅`./dist/prettier.js` exists' || (echo '😭`./dist/prettier.js` does not exist'; . exit)",
-    "test:prettier-config-exists": "path-exists ./dist/prettier.config.js && echo '✅`./dist/prettier.config.js` exists' || (echo '😭`./dist/prettier.config.js` does not exist'; . exit)"
+    "test:prettier-config-exists": "path-exists ./dist/prettier.config.js && echo '✅`./dist/prettier.config.js` exists' || (echo '😭`./dist/prettier.config.js` does not exist'; . exit)",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "publishConfig": {
     "access": "public"
@@ -39,6 +41,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^2.0.4"
-  }
+    "prettier": "^2.0.4",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
