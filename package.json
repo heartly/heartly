@@ -85,6 +85,7 @@
     "path-exists-cli": "^1.0.0",
     "prettier": "^2.0.4",
     "rimraf": "^3.0.2",
+    "tslint": "^6.1.1",
     "typescript": "^3.8.3",
     "weallbehave": "^1.2.0",
     "write-good": "^1.0.2"
