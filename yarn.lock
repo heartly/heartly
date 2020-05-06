@@ -1494,14 +1494,7 @@ ansi-escapes@^1.0.0, ansi-escapes@^1.1.0:
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
   integrity sha1-06ioOzGapneTZisT52HHkRQiMG4=
 
-ansi-escapes@^4.2.1:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-4.3.0.tgz#a4ce2b33d6b214b7950d8595c212f12ac9cc569d"
-  integrity sha512-EiYhwo0v255HUL6eDyuLrXEkTi7WwVCLAw+SeOQ7M7qdun1z1pum4DEm/nuqIVbPvi9RPPc9k9LbyBv6H0DwVg==
-  dependencies:
-    type-fest "^0.8.1"
-
-ansi-escapes@^4.3.0:
+ansi-escapes@^4.2.1, ansi-escapes@^4.3.0:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-4.3.1.tgz#a5c47cc43181f1f38ffd7076837700d395522a61"
   integrity sha512-JWF7ocqNrp8u9oqpgV+wH5ftbt+cfvv+PTjOvKLT3AdYly/LmORARfEVT1iyjwN+4MqE5UmVKoAdIBqeoCHgLA==
@@ -7699,9 +7692,9 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     then-fs "^2.0.0"
 
 snyk@^1.316.1:
-  version "1.318.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.318.0.tgz#07ddff45cd1ff711c8f0f16c3d0aed95775f03e4"
-  integrity sha512-O4qiZmSKFmiecyH0NewOTCEywJoLargkV25XreK3y/64Kx+SYs4N1INR4S3ETkrYUPTR/sZCexjIxv2VBV6SSg==
+  version "1.319.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.319.0.tgz#8841e5c322215b1c8fda60ebd84ab1c78a7ed4d0"
+  integrity sha512-tOFkZuJYPxzT50joiHd/bxdfsWd/cqFZcfEj6VxRJ28wYBC7imzodp4m8cC6Rcox4++2WEm6ZHNlPLyYjmfPOg==
   dependencies:
     "@snyk/cli-interface" "2.6.0"
     "@snyk/configstore" "^3.2.0-rc1"
