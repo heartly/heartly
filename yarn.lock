@@ -4929,15 +4929,10 @@ json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
-jsonc-parser@^2.2.1:
+jsonc-parser@^2.2.1, jsonc-parser@~2.2.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-2.2.1.tgz#db73cd59d78cce28723199466b2a03d1be1df2bc"
   integrity sha512-o6/yDBYccGvTz1+QFevz6l6OBZ2+fMVu2JZ9CIhzsYRX4mjaK5IyX9eldUdCmga16zlgQxyrj5pt9kzuj2C02w==
-
-jsonc-parser@~2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-2.2.0.tgz#f206f87f9d49d644b7502052c04e82dd6392e9ef"
-  integrity sha512-4fLQxW1j/5fWj6p78vAlAafoCKtuBm6ghv+Ij5W2DrDx0qE+ZdEl2c6Ko1mgJNF5ftX1iEWQQ4Ap7+3GlhjkOA==
 
 jsonfile@^4.0.0:
   version "4.0.0"
@@ -5460,10 +5455,10 @@ markdown-spellcheck@^1.3.1:
     marked "^0.3.5"
     sinon-as-promised "^4.0.0"
 
-markdownlint-cli@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/markdownlint-cli/-/markdownlint-cli-0.22.0.tgz#e5e3251ae6207a41eeb01640363fe2aa0f663a51"
-  integrity sha512-qRg6tK5dXWqkaFvEstz9YSQal1ECMgofrSZgdBOaPWG8cD50pk8Hs0ZpBCJ6SCHPKF71pCdtuSL2u82sIx2XWA==
+markdownlint-cli@^0.23.0, markdownlint-cli@^0.23.1:
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/markdownlint-cli/-/markdownlint-cli-0.23.1.tgz#2f21b5899e7260e2c6235cd336a7586d54031212"
+  integrity sha512-UARWuPILksAcVLTosUv1F1tLognNYQ/qjLRIgWwQAYqdl3QQrTPurU/X9Z2jrdAJYlOim868QsufxjYJpH0K7Q==
   dependencies:
     commander "~2.9.0"
     deep-extend "~0.5.1"
@@ -5474,52 +5469,21 @@ markdownlint-cli@^0.22.0:
     jsonc-parser "~2.2.0"
     lodash.differencewith "~4.5.0"
     lodash.flatten "~4.4.0"
-    markdownlint "~0.19.0"
-    markdownlint-rule-helpers "~0.7.0"
-    minimatch "~3.0.4"
-    rc "~1.2.7"
-
-markdownlint-cli@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/markdownlint-cli/-/markdownlint-cli-0.23.0.tgz#faada6ad054f105aa567f4e0e4402254da7842a8"
-  integrity sha512-qkr0OB86Q8PTIVUbzninYEhdEsj3h6rELNcyFEo5ejOkMZo55f03NwlWzGMGGWVz/L1GANN/HdidhpjMPv5vUg==
-  dependencies:
-    commander "~2.9.0"
-    deep-extend "~0.5.1"
-    get-stdin "~5.0.1"
-    glob "~7.1.2"
-    ignore "~5.1.4"
-    js-yaml "~3.13.1"
-    jsonc-parser "~2.2.0"
-    lodash.differencewith "~4.5.0"
-    lodash.flatten "~4.4.0"
-    markdownlint "~0.20.2"
-    markdownlint-rule-helpers "~0.9.0"
+    markdownlint "~0.20.3"
+    markdownlint-rule-helpers "~0.10.0"
     minimatch "~3.0.4"
     minimist "~1.2.5"
     rc "~1.2.7"
 
-markdownlint-rule-helpers@~0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/markdownlint-rule-helpers/-/markdownlint-rule-helpers-0.7.0.tgz#66476c373fcad6727ac5b64cb662e900cbe46bfe"
-  integrity sha512-xZByWJNBaCMHo7nYPv/5aO8Jt68YcMvyouFXhuXmJzbqCsQy8rfCj0kYcv22kdK5PwAgMdbHg0hyTdURbUZtJw==
+markdownlint-rule-helpers@~0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/markdownlint-rule-helpers/-/markdownlint-rule-helpers-0.10.0.tgz#6dd53be6f2872cea959f336978a5a21f9a4ca11e"
+  integrity sha512-0e8VUTjNdQwS7hTyNan9oOLsy4a7KEsXo3fxKMDRFRk6Jn+pLB3iKZ3mj/m6ECrlOUCxPYYmgOmmyk3bSdbIvw==
 
-markdownlint-rule-helpers@~0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/markdownlint-rule-helpers/-/markdownlint-rule-helpers-0.9.0.tgz#fbe39bb879bebbcd5dd38c47d9b3c264c3b88643"
-  integrity sha512-ySKvg7tlOAxLzGZyu3J3pKGGNHAQgQNcZOMFRd2b5MrhA00j40XYL1mtAI34NzCbVfvhnPPynh5AsJoL+uRHcw==
-
-markdownlint@^0.20.0, markdownlint@~0.20.2:
+markdownlint@^0.20.0, markdownlint@~0.20.3:
   version "0.20.3"
   resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.20.3.tgz#6f56d3e16d990af79d42e58bd2849f70b3358595"
   integrity sha512-J93s59tGvSFvAPWVUtEgxqPI0CHayTx1Z8poj1/4UJAquHGPIruWRMurkRldiNbgBiaQ4OOt15rHZbFfU6u05A==
-  dependencies:
-    markdown-it "10.0.0"
-
-markdownlint@~0.19.0:
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.19.0.tgz#a692c7b5c077874d4ee8b74e188d6c464ccce81e"
-  integrity sha512-+MsWOnYVUH4klcKM7iRx5cno9FQMDAb6FC6mWlZkeXPwIaK6Z5Vd9VkXkykPidRqmLHU2wI+MNyfUMnUCBw3pQ==
   dependencies:
     markdown-it "10.0.0"
 
