@@ -51,14 +51,14 @@
     resolve-from "5.0.0"
     resolve-global "1.0.0"
 
-"@commitlint/config-lerna-scopes@^8.3.4":
-  version "8.3.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-8.3.4.tgz#4e977cb39114664ce7db502b1d8e5d77f1a92340"
-  integrity sha512-kaSZ4i9uA/v0AS4Nt4E0D+qYtnPEnkYqOYvgxee16rUxP8uCgBbiv6oNnF3Tk/eHxopHzbG80n1YVYcb2s7edw==
+"@commitlint/config-lerna-scopes@^9.1.1":
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-9.1.1.tgz#9598023dfff3bc268768476093b02e4293bcf1de"
+  integrity sha512-UZgbpRhnjE4W/RKkV7x822MvHY4iKH44M542GdgO5NJdojg95BpKV3AcGcV+gtxVeUpPW+pzrjMLh1eIfmUyhA==
   dependencies:
     import-from "3.0.0"
     resolve-pkg "2.0.0"
-    semver "6.3.0"
+    semver "7.3.2"
 
 "@commitlint/ensure@^9.1.1":
   version "9.1.1"
