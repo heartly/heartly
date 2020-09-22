@@ -12,7 +12,7 @@ Heartly provides tools for friendlier coding.
 
 ## Heartly Tools
 
-The table below contains the current Heartly toolset.
+The table below contains the Heartly toolset. Enjoy!
 
 | Tool                                                                        | Purpose                           |
 | --------------------------------------------------------------------------- | --------------------------------- |
