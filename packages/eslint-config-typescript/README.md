@@ -31,6 +31,20 @@ Make a `prettier.config.js` file with the following.
 module.exports = require('@heartly/eslint-config-typescript/dist/prettier')
 ```
 
+Or, add a line to your `package.json`
+
+```json
+"prettier": "@heartly/eslint-config/dist/prettier"
+```
+
+## Debugging setup
+
+When initially running a `eslint` script, an error requesting a `dependent` module be installed may appear.
+
+This usually has to do with:
+-  `eslint` or `prettier` packages referenced incorrectly in the `package-lock.json` or `yarn.lock`. Run `rm -rf yarn.lock package-lock.json` and `npm i` or `yarn`.
+-  The `eslint` script needing to be updated or more files needing to be added to the `.eslintignore`.
+
 Fin 👨‍🎨
 
 ---
