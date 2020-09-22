@@ -28,7 +28,7 @@ Make a `.eslintrc` file with the following.
 Make a `prettier.config.js` file with the following.
 
 ```js
-module.exports = require('./packages/eslint-config-typescript/dist/prettier')
+module.exports = require('@heartly/eslint-config-typescript/dist/prettier')
 ```
 
 Fin 👨‍🎨
