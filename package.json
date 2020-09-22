@@ -20,7 +20,7 @@
     "commit": "git-cz",
     "commit:retry": "git-cz --retry",
     "commitmsg": "commitlint -e",
-    "deploy:script": "yarn build && lerna publish from-package --ignore-scripts",
+    "deploy:script": "yarn build && lerna publish from-package --ignore-scripts --canary --yes",
     "deploy": "branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD); if [[ $branch == 'master' ]]; then yarn deploy:script; else echo 'deploy should be run on master'; fi;",
     "eslint": "eslint . --ext '.json,.ts,.tsx' --cache",
     "lint": "npm run eslint --fix",
@@ -139,7 +139,7 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "post-checkout": "if [[ $HUSKY_GIT_PARAMS =~ 1$ ]]; then yarn; fi",
-      "post-merge": "yarn",
+      "post-merge": "yarn && yarn build",
       "post-rewrite": "yarn",
       "pre-commit": "yarn tsc && lint-staged"
     }
