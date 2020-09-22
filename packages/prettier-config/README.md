@@ -17,7 +17,20 @@ npm install @heartly/prettier-config -D
 
 ## Setup
 
-TODO
+Make a `prettier.config.js` file with the following.
+
+```js
+module.exports = require('@heartly/eslint-config-typescript/dist/prettier')
+```
+
+Or, add `"prettier": "@currency/eslint-config/dist/prettier"` to the repository's `package.json`.
+
+## Debugging setup
+
+When initially running a `prettier` script, an error requesting a `dependent` module be installed may appear.
+
+This usually has to do with:
+-  `prettier` packages referenced incorrectly in the `package-lock.json` or `yarn.lock`. Run `rm -rf yarn.lock package-lock.json` and `npm i` or `yarn`.
 
 Fin 👨‍🎨
 
