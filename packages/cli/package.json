@@ -1,0 +1,49 @@
+{
+	"name": "@heartly/cli",
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": "dist/cli.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "yarn build && dist/cli.js",
+		"pretest": "yarn build",
+		"test": "xo && ava"
+	},
+	"files": [
+		"dist/cli.js"
+	],
+	"dependencies": {
+		"ink": "^3.0.7",
+		"meow": "^7.1.1",
+		"react": "^16.14.0"
+	},
+	"devDependencies": {
+		"@ava/typescript": "^1.1.1",
+		"@sindresorhus/tsconfig": "^0.7.0",
+		"@types/react": "^16.9.53",
+		"ava": "^3.13.0",
+		"chalk": "^4.1.0",
+		"eslint-config-xo-react": "^0.23.0",
+		"eslint-plugin-react": "^7.21.4",
+		"eslint-plugin-react-hooks": "^4.1.2",
+		"ink-testing-library": "^2.1.0",
+		"typescript": "^4.0.3",
+		"xo": "^0.34.0"
+	},
+	"ava": {
+		"typescript": {
+			"extensions": [
+				"tsx"
+			],
+			"rewritePaths": {
+				"source/": "dist/"
+			}
+		}
+	},
+	"xo": {
+		"extends": "xo-react",
+		"rules": {
+			"react/prop-types": "off"
+		}
+	}
+}

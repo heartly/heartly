@@ -1,6 +1,6 @@
 {
   "name": "@heartly/markdownlint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Markdownlint configuration for .md files, by Heartly 💕",
   "main": "dist/index.js",
   "repository": "git@github.com:heartly/heartly.git",
