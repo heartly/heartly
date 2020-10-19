@@ -8,7 +8,7 @@ Standard React [Eslint Config](https://eslint.org/docs/developer-guide/shareable
 ## Install
 
 ```bash
-yarn add @heartly/eslint-config-typescript -D
+yarn add @heartly/eslint-config-typescript-react -D
 ```
 
 ## Setup
@@ -25,7 +25,7 @@ When initially running a `eslint` script, an error requesting a `dependent` modu
 
 This usually has to do with:
 -  `eslint` or `prettier` packages referenced incorrectly in the `package-lock.json` or `yarn.lock`. Run `rm -rf yarn.lock package-lock.json` and `npm i` or `yarn`.
--  The `eslint` script needing to be updated or more files needing to be added to the `.eslintignore`.
+-  The `eslint` script needs an update.
 
 ~Fin 👨‍🎨
 

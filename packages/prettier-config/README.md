@@ -8,11 +8,7 @@ Standard [Prettier](https://prettier.io/) Config for Code Projects.
 ## Install
 
 ```bash
-
 yarn add @heartly/prettier-config -D
-# or
-npm install @heartly/prettier-config -D
-
 ```
 
 ## Setup
@@ -32,7 +28,7 @@ When initially running a `prettier` script, an error requesting a `dependent` mo
 This usually has to do with:
 -  `prettier` packages referenced incorrectly in the `package-lock.json` or `yarn.lock`. Run `rm -rf yarn.lock package-lock.json` and `npm i` or `yarn`.
 
-Fin 👨‍🎨
+~Fin 👨‍🎨
 
 ---
 
