@@ -15,8 +15,8 @@ The table below contains the Heartly toolset. Enjoy!
 | --------------------------------------------------------------------------- | --------------------------------- |
 | **[@heartly/eslint-config](/packages/eslint-config)**                       | easy eslint config                |
 | **[@heartly/eslint-config-typescript](/packages/eslint-config-typescript)** | easy eslint config for typescript |
+| **[@heartly/eslint-config-typescript-react](/packages/eslint-config-typescript-react)** | easy typescript eslint config for react |
 | **[@heartly/prettier-config](/packages/prettier-config)**                   | easy prettier config              |
-| **[@heartly/markdownlint-config](/packages/markdownlint-config)**           | easy markdownlint config          |
 
 ---
 

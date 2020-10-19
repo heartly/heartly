@@ -8,11 +8,7 @@ Standard [Eslint Config](https://eslint.org/docs/developer-guide/shareable-confi
 ## Install
 
 ```bash
-
 yarn add @heartly/eslint-config -D
-# or
-npm install @heartly/eslint-config -D
-
 ```
 
 ## Setup
@@ -20,9 +16,7 @@ npm install @heartly/eslint-config -D
 Make a `.eslintrc` file with the following.
 
 ```json
-{
-  "extends": "@heartly/eslint-config"
-}
+{ "extends": "@heartly/eslint-config" }
 ```
 
 Make a `prettier.config.js` file with the following.
