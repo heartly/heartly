@@ -1,14 +1,17 @@
 {
-	"name": "@heartly/cli",
-	"version": "0.0.1",
-	"license": "MIT",
-	"description": "The Heartly CLI, by Heartly 💕",
-	"bin": "dist/index.js",
+	"name": "@heartly/heartly",
+  "version": "0.0.1",
+  "description": "The Heartly CLI tool, by Heartly 💕",
+  "main": "dist/index.js",
+  "repository": "git@github.com:heartly/heartly.git",
+  "author": "Jeff Wainwright <yowainwright@gmail.com> (https://jeffry.in) (https://github.com/yowainwright)",
+  "license": "MIT",
 	"publishConfig": {
     "access": "public"
   },
 	"scripts": {
 		"build": "tsc",
+		"clean": "rimraf dist",
 		"start": "yarn build && dist/index.js",
 		"test": "jest"
 	},
