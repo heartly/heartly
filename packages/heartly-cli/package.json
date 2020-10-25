@@ -1,0 +1,47 @@
+{
+	"name": "@heartly/heartly-cli",
+	"version": "0.0.1",
+	"description": "The Heartly CLI tool, by Heartly 💕",
+	"main": "dist/index.js",
+	"repository": "git@github.com:heartly/heartly.git",
+	"author": "Jeff Wainwright <yowainwright@gmail.com> (https://jeffry.in) (https://github.com/yowainwright)",
+	"license": "MIT",
+	"bin": {
+		"heartly-cli": "dist/index.js"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf dist",
+		"start": "yarn build && dist/index.js",
+		"test": "jest"
+	},
+	"files": [
+		"dist/index.js"
+	],
+	"dependencies": {
+		"ink": "^3.0.7",
+		"meow": "^7.1.1",
+		"react": "^16.14.0"
+	},
+	"devDependencies": {
+		"@types/react": "^16.9.53",
+		"@types/ink-testing-library": "^1.0.1",
+		"@types/jest": "^26.0.14",
+		"ink-testing-library": "^2.1.0",
+		"jest": "^26.5.3",
+		"chalk": "^4.1.0",
+		"ts-jest": "^26.4.1"
+	},
+	"jest": {
+		"preset": "ts-jest",
+		"transform": {
+			"^.+\\.(ts|tsx)?$": "ts-jest"
+		},
+		"testMatch": [
+			"**/?(*.)+(test).[t]s?(x)"
+		]
+	}
+}
