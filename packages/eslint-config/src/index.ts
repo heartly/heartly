@@ -1,4 +1,5 @@
 export type EslintConfig = {
+  root: boolean
   parser: string
   plugins: string[]
   extends: string[]
@@ -13,6 +14,7 @@ export type EslintConfig = {
 }
 
 export const eslintConfig = {
+  root: true,
   plugins: ['react', 'standard', 'prettier', 'json', 'jest', 'filenames', 'import', 'markdown'],
   extends: ['standard', 'plugin:react/recommended', 'prettier/react', 'plugin:prettier/recommended'],
   globals: {

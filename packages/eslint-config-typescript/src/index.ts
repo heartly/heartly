@@ -1,4 +1,5 @@
 export type EslintConfig = {
+  root: boolean
   parser: string
   plugins: string[]
   extends: string[]
@@ -9,6 +10,7 @@ export type EslintConfig = {
 }
 
 export const eslintConfig = {
+  root: true,
   parser: '@typescript-eslint/parser',
   plugins: ['react', 'prettier', 'json', 'jest', 'filenames', 'import', '@typescript-eslint'],
   extends: [
