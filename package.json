@@ -112,6 +112,7 @@
           "root",
           "eslint-config",
           "eslint-config-typescript",
+          "eslint-config-typescript-react",
           "markdownlint-config",
           "prettier-config"
         ]
