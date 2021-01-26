@@ -14,11 +14,13 @@ export type EslintConfig = {
 export const eslintConfig = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: ['prettier', 'json', 'jest', 'filenames', 'import', '@typescript-eslint'],
+  plugins: ['react', 'prettier', 'json', 'jest', 'filenames', 'import', '@typescript-eslint'],
   extends: [
     'standard',
     'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
     'prettier/@typescript-eslint',
+    'prettier/react',
     'plugin:prettier/recommended',
   ],
   parserOptions: {

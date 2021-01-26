@@ -5,11 +5,7 @@ Standard [Markdown Lint](https://github.com/igorshubovych/markdownlint-cli)) Con
 ## Install
 
 ```bash
-
 yarn add @heartly/markdownlint-config -D
-# or
-npm install @heartly/markdownlint-config -D
-
 ```
 
 ## Setup
