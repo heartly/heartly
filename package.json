@@ -56,10 +56,8 @@
   },
   "homepage": "https://github.com/heartly/heartly#readme",
   "devDependencies": {
-    "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-lerna-scopes": "^10.0.0",
     "@commitlint/cli": "^11.0.0",
-     "@commitlint/config-lerna-scopes": "^10.0.0",
+    "@commitlint/config-lerna-scopes": "^10.0.0",
     "@commitlint/prompt": "^11.0.0",
     "@types/node": "^14.0.0",
     "@typescript-eslint/eslint-plugin": "^4.0.0",
@@ -114,6 +112,7 @@
           "root",
           "eslint-config",
           "eslint-config-typescript",
+          "eslint-config-typescript-react",
           "markdownlint-config",
           "prettier-config"
         ]
@@ -148,5 +147,8 @@
     "*.{ts,tsx,js,jsx,json,md}": [
       "yarn lint"
     ]
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.0.6"
   }
 }

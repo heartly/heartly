@@ -1,4 +1,7 @@
+require('@rushstack/eslint-patch/modern-module-resolution')
+
 export type EslintConfig = {
+  root: boolean
   parser: string
   plugins: string[]
   extends: string[]
@@ -13,14 +16,15 @@ export type EslintConfig = {
 }
 
 export const eslintConfig = {
-  plugins: ['react', 'standard', 'prettier', 'json', 'jest', 'filenames', 'import', 'markdown'],
-  extends: ['standard', 'plugin:react/recommended', 'prettier/react', 'plugin:prettier/recommended'],
+  root: true,
+  plugins: ['standard', 'prettier', 'json', 'jest', 'filenames', 'import', 'markdown'],
+  extends: ['standard', 'plugin:prettier/recommended'],
   globals: {
     expect: true,
     test: true,
   },
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2021,
     sourceType: 'module',
   },
 } as EslintConfig
