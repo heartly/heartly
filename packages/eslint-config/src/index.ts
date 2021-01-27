@@ -24,7 +24,7 @@ export const eslintConfig = {
     test: true,
   },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2018,
     sourceType: 'module',
   },
 } as EslintConfig
