@@ -1,6 +1,6 @@
 {
   "name": "@heartly/eslint-config-typescript-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Standard Eslint Config TypeScript React with Prettier for JavaScript Projects, by Heartly 💕",
   "main": "dist/index.js",
   "repository": "git@github.com:heartly/heartly.git",
@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.0.6",
-    "eslint": "^7.0.0",
-    "eslint-config-prettier": "^6.10.1",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-config-standard": "^16.0.1",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-import": "^2.20.2",
