@@ -1,6 +1,6 @@
 {
   "name": "@heartly/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Standard Eslint Config with Prettier for JavaScript Projects, by Heartly 💕",
   "main": "dist/index.js",
   "repository": "git@github.com:heartly/heartly.git",
