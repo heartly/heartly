@@ -8,11 +8,7 @@ Standard [Eslint Config](https://eslint.org/docs/developer-guide/shareable-confi
 ## Install
 
 ```bash
-
 yarn add @heartly/eslint-config -D
-# or
-npm install @heartly/eslint-config -D
-
 ```
 
 ## Setup
