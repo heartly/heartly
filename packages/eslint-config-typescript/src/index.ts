@@ -22,7 +22,7 @@ export const eslintConfig = {
     'plugin:prettier/recommended',
   ],
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2018,
     sourceType: 'module',
   },
 } as EslintConfig
