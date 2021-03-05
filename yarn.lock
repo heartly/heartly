@@ -88,7 +88,7 @@
     "@commitlint/rules" "^12.0.1"
     "@commitlint/types" "^12.0.1"
 
-"@commitlint/load@>6.1.1", "@commitlint/load@^12.0.0", "@commitlint/load@^12.0.1":
+"@commitlint/load@>6.1.1", "@commitlint/load@^12.0.1":
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-12.0.1.tgz#4d180fc88e5b4cfcb476a245d899f85154137502"
   integrity sha512-dX8KdCWn7w0bTkkk3zKQpe9X8vsTRa5EM+1ffF313wCX9b6tGa9vujhEHCkSzKAbbE2tFV64CHZygE7rtlHdIA==
@@ -116,15 +116,15 @@
     conventional-commits-parser "^3.0.0"
 
 "@commitlint/prompt@^12.0.0":
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-12.0.0.tgz#54c16c4316dc31dfdebb4cdb8be505e1bb4b8666"
-  integrity sha512-fEirLHHMpMvLmne2CujGmK7MQcgTajzc6C8jqmqixt1Hyta/q3ZYHL+Lp2RG227EXnnLUB1dC3qDGVN2rZJJtQ==
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-12.0.1.tgz#f1d7c808c26e2864fde50a21fc95651c647cb395"
+  integrity sha512-EXCZzoyXIbIhV38tJMjVvwzpQwP08ZmLDbL2crU3zVsZ9FjHxw2ujreF23qpCnx7GQHm/D7Q7rIDHhUALAPj/Q==
   dependencies:
-    "@commitlint/load" "^12.0.0"
-    "@commitlint/types" "^12.0.0"
+    "@commitlint/load" "^12.0.1"
+    "@commitlint/types" "^12.0.1"
     chalk "^4.0.0"
     lodash "^4.17.19"
-    throat "^5.0.0"
+    throat "^6.0.0"
     vorpal "^1.12.0"
 
 "@commitlint/read@^12.0.1":
@@ -169,7 +169,7 @@
   dependencies:
     find-up "^5.0.0"
 
-"@commitlint/types@^12.0.0", "@commitlint/types@^12.0.1":
+"@commitlint/types@^12.0.1":
   version "12.0.1"
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-12.0.1.tgz#04a0cbb8aa56b7c004f8939c2d1ef8892ec68327"
   integrity sha512-FsNDMV0W7D19/ZbR412klpqAilXASx75Neqh7jPtK278IEwdukOg3vth1r5kTm+BjDScM7wMUEOwIW3NNfAtwg==
@@ -8929,10 +8929,10 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-throat@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/throat/-/throat-5.0.0.tgz#c5199235803aad18754a667d659b5e72ce16764b"
-  integrity sha512-fcwX4mndzpLQKBS1DVYhGAcYaYt7vsHNIvQV+WXMvnow5cgjPphq5CaayLaGsjRdSCKZFNGt7/GYAuXaNOiYCA==
+throat@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/throat/-/throat-6.0.1.tgz#d514fedad95740c12c2d7fc70ea863eb51ade375"
+  integrity sha512-8hmiGIJMDlwjg7dlJ4yKGLK8EsYqKgPWbG3b4wjJddKNwc7N7Dpn08Df4szr/sZdMVeOstrdYSsqzX6BYbcB+w==
 
 through2@^2.0.0, through2@^2.0.2, through2@^2.0.3:
   version "2.0.5"
