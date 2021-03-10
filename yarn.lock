@@ -3338,9 +3338,9 @@ eslint-plugin-import@^2.20.1, eslint-plugin-import@^2.20.2:
     tsconfig-paths "^3.9.0"
 
 eslint-plugin-jest@^24.0.0:
-  version "24.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.2.0.tgz#2d7784f58bf424b7ba888305c6c070f80bd2af5d"
-  integrity sha512-PZ6+/cOldZxpGF3rVYX6Y+83AUAI4jofdtyVrjimVHgXHfPBC5UKVTn92f6aFFV9HuD8xa1WNqY5s3kgfSzROQ==
+  version "24.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.2.1.tgz#7e84f16a3ca6589b86be9732a93d71367a4ed627"
+  integrity sha512-s24ve8WUu3DLVidvlSzaqlOpTZre9lTkZTAO+a7X0WMtj8HraWTiTEkW3pbDT1xVxqEHMWSv+Kx7MyqR50nhBw==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
@@ -8292,9 +8292,9 @@ snyk-try-require@^2.0.0:
     lru-cache "^5.1.1"
 
 snyk@^1.316.1:
-  version "1.477.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.477.0.tgz#ed3769cf2b4605cefe360332df42b7e557d3a831"
-  integrity sha512-13nQ7Cvypx0euj8rvjAuXVkpdS8vGaP7xhaaxS5JUyg/j7Cs8Y5o5e/H2t4eHyY794ajSphm7kSSp2f8FJJYfw==
+  version "1.479.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.479.0.tgz#c335d0972103eb1146c9f40e4a6708254cc9b66c"
+  integrity sha512-RZGDtUIQuNkdl/Hn7N99LNgwY/ETGAAi+Cd7bwXip8A+13EaERZ8xU1b6bQQ2/W5cELyBJkIT/+x1izFahfAwA==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
