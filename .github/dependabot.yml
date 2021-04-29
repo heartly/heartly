@@ -1,0 +1,24 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: snyk
+    versions:
+    - 1.440.3
+    - 1.476.0
+    - 1.508.0
+    - 1.561.0
+    - 1.563.0
+    - 1.568.0
+    - 1.570.0
+  - dependency-name: husky
+    versions:
+    - 6.0.0
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.34
