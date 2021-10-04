@@ -2764,9 +2764,9 @@ eslint-plugin-import@^2.20.1, eslint-plugin-import@^2.20.2:
     tsconfig-paths "^3.11.0"
 
 eslint-plugin-jest@^24.0.0:
-  version "24.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.5.0.tgz#a223a0040a19af749a161807254f0e47f5bfdcc3"
-  integrity sha512-Cm+XdX7Nms2UXGRnivHFVcM3ZmlKheHvc9VD78iZLO1XcqB59WbVjrMSiesCbHDlToxWjMJDiJMgc1CzFE13Vg==
+  version "24.5.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.5.2.tgz#f71f98f27fd18b50f55246ca090f36d1730e36a6"
+  integrity sha512-lrI3sGAyZi513RRmP08sIW241Ti/zMnn/6wbE4ZBhb3M2pJ9ztaZMnSKSKKBUfotVdwqU8W1KtD8ao2/FR8DIg==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
@@ -6754,9 +6754,9 @@ snapdragon@^0.8.1:
     use "^3.1.0"
 
 snyk@^1.316.1:
-  version "1.729.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.729.0.tgz#3e0946b90e4efeccc93b1bca6d063d5e75868e6d"
-  integrity sha512-+JFr+wvJCUJajsaEUF298Z7oJTkIrGQgBeqW6R8ZKOjUzawue8s406ILJ+E/40Jh14QkT00iOLKxr1pjS/CUIw==
+  version "1.730.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.730.0.tgz#d84ba618be1a023b400e3e6a40208213d6c8fa0c"
+  integrity sha512-g5tsuOU8bmNezkobhhhkAT2D0tmWrI1pR4yrU5InFZOLs4Ch9Vz8lnUnfCEVxUftsyXx3dHnSbc+3ncEHnorVw==
 
 socks-proxy-agent@^5.0.0:
   version "5.0.0"
