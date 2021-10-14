@@ -1099,9 +1099,9 @@
     "@octokit/openapi-types" "^5.3.1"
 
 "@rushstack/eslint-patch@^1.0.6":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.7.tgz#82f83dcc2eb9b1e1d559b3aca96783e285eb8592"
-  integrity sha512-3Zi2LGbCLDz4IIL7ir6wD0u/ggHotLkK5SlVzFzTcYaNgPR4MAt/9JYZqXWKcofPWEoptfpnCJU8Bq9sxw8QUg==
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.8.tgz#be3e914e84eacf16dbebd311c0d0b44aa1174c64"
+  integrity sha512-ZK5v4bJwgXldAUA8r3q9YKfCwOqoHTK/ZqRjSeRXQrBXWouoPnS4MQtgC4AXGiiBuUu5wxrRgTlv0ktmM4P1Aw==
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -2806,9 +2806,9 @@ eslint-plugin-import@^2.20.1, eslint-plugin-import@^2.20.2:
     tsconfig-paths "^3.11.0"
 
 eslint-plugin-jest@^25.0.1:
-  version "25.0.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-25.0.5.tgz#22b0f155aa68aa0932adda104c930c0b1a9ca6ca"
-  integrity sha512-fMVTvh/pgBHgEyJp643qRjqvyR3TAw3VIldYV0LltepKo4whYZ4oYlsplT0SIqjnclkuNN+PRr841XPMgaOswg==
+  version "25.0.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-25.0.6.tgz#75141c0ee60a5747d27b9920f3687d13a012cbb4"
+  integrity sha512-uXmY2P1iYew6m7ziAyrO6Ircb/r0161s9oxfR8G1HY65KTHm0RY6ohz95PxrW6eQnhqQ7dEk+WodzSdHBZZs3A==
   dependencies:
     "@typescript-eslint/experimental-utils" "^5.0.0"
 
