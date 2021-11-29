@@ -38,10 +38,10 @@
     resolve-global "1.0.0"
     yargs "^17.0.0"
 
-"@commitlint/config-lerna-scopes@^14.0.0":
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-14.0.0.tgz#9eb922d96c04276491507dd52b41e01b2c58d35d"
-  integrity sha512-hW/PagT//s/XAhFyCCWmWSfQX79ciJjmL3n1F6N2i2R/BjewEGnXyNCI3nV3pQfJYm/b7BJkGygz4hl0ESe0bA==
+"@commitlint/config-lerna-scopes@^15.0.0":
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-15.0.0.tgz#1a74bd812810da7ff709c9b69af648783c1ce120"
+  integrity sha512-OZXkyePxWQ7h7X85gnDSLvuUTEcumCBzn27IkK2bR78/qyv505u4DFZssbYkezdyh86TbRQTAmyUshHj5HF2jA==
   dependencies:
     globby "^11.0.1"
     import-from "4.0.0"
@@ -6046,9 +6046,9 @@ prettier-linter-helpers@^1.0.0:
     fast-diff "^1.1.2"
 
 prettier@^2.0.4:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
-  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.0.tgz#a6370e2d4594e093270419d9cc47f7670488f893"
+  integrity sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
@@ -6780,9 +6780,9 @@ snapdragon@^0.8.1:
     use "^3.1.0"
 
 snyk@^1.316.1:
-  version "1.734.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.734.0.tgz#541ef1b148ea53c52e2161ba773ecf00f2492731"
-  integrity sha512-adVI5FSf5jrYAtjVjdkYR3PTZMVMPP3A93OowipLXzY5K3T8v2E4sN5zXsh2k7ZwgBEUy7C5Z/DnIKR9EHOhmQ==
+  version "1.775.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.775.0.tgz#d420e6877700aa0952574bb76c4354e610010ebc"
+  integrity sha512-+LVwS0RePl+mKTnF6J+HWZNY0SkvwbytDs76n0be1TxiY3vhe/H+N+pbhvmv0smAK3ZnsRTOKiVrqkzLqhAWsg==
 
 socks-proxy-agent@^5.0.0:
   version "5.0.0"
