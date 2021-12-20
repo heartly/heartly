@@ -1141,9 +1141,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@>= 8", "@types/node@^17.0.0":
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.0.tgz#62797cee3b8b497f6547503b2312254d4fe3c2bb"
-  integrity sha512-eMhwJXc931Ihh4tkU+Y7GiLzT/y/DBNpNtr4yU9O2w3SYBsr9NaOPhQlLKRmoWtI54uNwuo0IOUFQjVOTZYRvw==
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.1.tgz#88d501e84b6185f6489ecee4ba9e8fcec7f29bb2"
+  integrity sha512-NXKvBVUzIbs6ylBwmOwHFkZS2EXCcjnqr8ZCRNaXBkHAf+3mn/rPcJxwrzuc6movh8fxQAsUUfYklJ/EG+hZqQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -6622,9 +6622,9 @@ snapdragon@^0.8.1:
     use "^3.1.0"
 
 snyk@^1.316.1:
-  version "1.794.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.794.0.tgz#8c75f918197d1546788a3790e16684357205d252"
-  integrity sha512-o2SVajU3FKSn2n56NsCRDroENk4r0GVKX1+++Zle2hPKILNaLZVwtcPAN1NqTFl9WBFAAzcbYzq8ltLopdcADg==
+  version "1.801.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.801.0.tgz#2e2f9b4004f99feba2f7169a1dfb2e5a9ff16c0a"
+  integrity sha512-eCJ12l/915o4he27nCvlVMuD7r6h3vTM7AM8BO5JnqVgmJUGxCb1++9bt6j+s69xa/QNxJ68CGuHQPvJiyxoqw==
 
 socks-proxy-agent@^5.0.0:
   version "5.0.0"
