@@ -6678,9 +6678,9 @@ snapdragon@^0.8.1:
     use "^3.1.0"
 
 snyk@^1.316.1:
-  version "1.824.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.824.0.tgz#548e33235bcf9cadff85b872e105fcd55a4533ba"
-  integrity sha512-5KkGw8rBbp0bIj1oFPaDxmkAIeduyrZsTjLiBAHsbpAkW9OAizsfgbDTIyk8oesuM/Hn2hTwrOFbby2/aN0amg==
+  version "1.826.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.826.0.tgz#d0ff94488796c24f9b2964819aa22178b26566e7"
+  integrity sha512-ZqkDPgO37D7sgxY+Y8J+4UK9mq89By9lcp/KUP9PfqETxWclVZXlcaLIkaY4BkDCktPDNtS6WHgYR3ApL+9mMQ==
 
 socks-proxy-agent@^5.0.0:
   version "5.0.0"
