@@ -5,7 +5,6 @@
     "allowJs": false,
     "declaration": true,
     "esModuleInterop": true,
-    "jsx": "react",
     "importHelpers": true,
     "lib": ["esnext", "dom"],
     "module": "commonjs",
@@ -15,11 +14,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "outDir": "./dist",
-    "preserveConstEnums": true,
-    "removeComments": false,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "sourceMap": true,
     "target": "es5"
   },
   "exclude": ["**/*.test.ts", "packages/*/dist/**", "**/__tests__/**", "*.js"]

@@ -5,10 +5,12 @@
 
 Standard [Eslint Config](https://eslint.org/docs/developer-guide/shareable-configs) with [Prettier](https://prettier.io/) for JavaScript Projects.
 
+> This project will not publish any updates beyond security fixes (3/23/2022). 😬
+
 ## Install
 
 ```bash
-yarn add @heartly/eslint-config -D
+npm install @heartly/eslint-config -D
 ```
 
 ## Setup
@@ -23,6 +25,12 @@ Make a `.eslintrc` file with the following.
 
 Make a `prettier.config.js` file with the following.
 
+Via terminal
+```bash
+echo "module.exports = require('@heartly/eslint-config/dist/prettier')" > prettier.config.js
+```
+
+Or, via copy/paste
 ```js
 module.exports = require('@heartly/eslint-config/dist/prettier')
 ```
