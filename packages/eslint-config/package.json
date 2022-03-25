@@ -1,6 +1,6 @@
 {
   "name": "@heartly/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.0-beta.0",
   "description": "Standard Eslint Config with Prettier for JavaScript Projects, by Heartly 💕",
   "main": "dist/index.js",
   "repository": "git@github.com:heartly/heartly.git",
@@ -13,9 +13,14 @@
     "dist/index.js",
     "dist/prettier.js",
     "dist/prettier.config.js",
+    "config/.eslintrc",
     "README.md",
     "LICENSE"
   ],
+  "bin": {
+    "💕-init-eslint-config": "node dist/script.js",
+    "heartly-init-eslint-config": "node dist/script.js"
+  },
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
@@ -31,6 +36,7 @@
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^7.0.0",
     "prettier": "^2.0.4",
+    "shelljs": "^0.8.5",
     "snyk": "^1.316.1"
   },
   "snyk": true
