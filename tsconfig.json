@@ -16,7 +16,8 @@
     "outDir": "./dist",
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "target": "es5"
+    "target": "es5",
+    "jsx": "react"
   },
   "exclude": ["**/*.test.ts", "packages/*/dist/**", "**/__tests__/**", "*.js"]
 }

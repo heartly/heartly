@@ -18,7 +18,6 @@
     "LICENSE"
   ],
   "bin": {
-    "💕-init-eslint-config": "node dist/script.js",
     "heartly-init-eslint-config": "node dist/script.js"
   },
   "scripts": {
