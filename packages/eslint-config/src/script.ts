@@ -7,7 +7,7 @@ const config = resolve(__dirname, '../config/.template-eslintrc')
 const eslintRoot = resolve('.eslintrc')
 
 // json pathing
-const pkgJSON = 'package.json'
+const pkgJSON = resolve('package.json')
 const json = require(pkgJSON)
 json.prettier = '@heartly/eslint-config/dist/prettier'
 
