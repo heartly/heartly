@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { resolve } = require('path')
-const { copyFile, readFile, writeFile } = require('fs').promises
+const { copyFile, writeFile } = require('fs').promises
 
 // eslint config pathing
 const config = resolve(__dirname, '../config/.template-eslintrc')
