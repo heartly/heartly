@@ -1,8 +1,30 @@
 #!/usr/bin/env node
 const { resolve } = require('path')
-const { copyFile } = require('fs')
+const { copyFile, readFile, writeFile } = require('fs').promises
 
+// eslint config pathing
 const config = resolve(__dirname, '../config/.template-eslintrc')
-const root = resolve('.eslintrc')
-// only log if error
-copyFile(config, root, (err) => err && console.log(`There was an error copying data, ${err}, ${config}, ${__dirname}`))
+const eslintRoot = resolve('.eslintrc')
+
+// json pathing
+const pkgJSON = 'package.json'
+const json = require(pkgJSON)
+const updatedPkgJSON = { ...json, prettier: '@heartly/eslint-config/dist/prettier' }
+
+const errors = []
+
+/**
+ * @note update the package json with the prettier config
+ */
+writeFile(pkgJSON, JSON.stringify(updatedPkgJSON), (err) => err && errors.push(errors))
+
+/**
+ * @note copy the eslint config over
+ */
+copyFile(config, eslintRoot, (err) => err && errors.push(errors))
+
+if (errors.length === 0) {
+  console.log('Have a great day! 👋 💕')
+} else {
+  console.log('There was an error configuring heartly eslint! 💔', { config, eslintRoot, updatedPkgJSON })
+}

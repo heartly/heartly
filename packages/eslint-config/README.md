@@ -3,14 +3,24 @@
 ![Typed with TypeScript](https://flat.badgen.net/badge/icon/Typed?icon=typescript&label&labelColor=blue&color=555555)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
-Standard [Eslint Config](https://eslint.org/docs/developer-guide/shareable-configs) with [Prettier](https://prettier.io/) for JavaScript Projects.
+Standard [Eslint Config](https://eslint.org/docs/developer-guide/shareable-configs) with [Prettier](https://prettier.io/) for JavaScript projects.
 
-> This project will not publish any updates beyond security fixes (3/23/2022). 😬
+---
+
+## Rapid setup
+
+For just-get-it-done-already eslint config 🚀
+
+```bash
+npm install eslint @heartly/eslint-config -D && npx heartly-init-eslint-config
+```
+
+---
 
 ## Install
 
 ```bash
-npm install @heartly/eslint-config -D
+npm install eslint @heartly/eslint-config -D
 ```
 
 ## Setup
