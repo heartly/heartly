@@ -9,14 +9,14 @@ const eslintRoot = resolve('.eslintrc')
 // json pathing
 const pkgJSON = 'package.json'
 const json = require(pkgJSON)
-const updatedPkgJSON = { ...json, prettier: '@heartly/eslint-config/dist/prettier' }
+json.prettier = '@heartly/eslint-config/dist/prettier'
 
 const errors = []
 
 /**
  * @note update the package json with the prettier config
  */
-writeFile(pkgJSON, JSON.stringify(updatedPkgJSON), (err) => err && errors.push(errors))
+writeFile(pkgJSON, JSON.stringify(json), (err) => err && errors.push(errors))
 
 /**
  * @note copy the eslint config over
@@ -26,5 +26,5 @@ copyFile(config, eslintRoot, (err) => err && errors.push(errors))
 if (errors.length === 0) {
   console.log('Have a great day! 👋 💕')
 } else {
-  console.log('There was an error configuring heartly eslint! 💔', { config, eslintRoot, updatedPkgJSON })
+  console.log('There was an error configuring heartly eslint! 💔', { config, eslintRoot, json })
 }
