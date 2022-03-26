@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { resolve } = require('path')
 const {
-  constants: { COPYFILE_FICLONE_FORCE },
+  constants: { COPYFILE_EXCL },
   copyFile,
   writeFile,
 } = require('fs')
@@ -20,15 +20,22 @@ const errors = []
 /**
  * @note update the package json with the prettier config
  */
-writeFile(pkgJSON, JSON.stringify(json), COPYFILE_FICLONE_FORCE, (err) => errors.push(err))
+writeFile(
+  pkgJSON,
+  JSON.stringify(json),
+  (err) => errors.push(err) && console.log(`There was an error updating the package.json! Skipping 👯‍♀️, ${err}`),
+)
 
 /**
  * @note copy the eslint config over
  */
-copyFile(config, eslintRoot, COPYFILE_FICLONE_FORCE, (err) => errors.push(err))
+copyFile(
+  config,
+  eslintRoot,
+  COPYFILE_EXCL,
+  (err) => errors.push(err) && console.log(`The eslint config exists already! Skipping 👯‍♀️, ${err}`),
+)
 
 if (errors.length === 0) {
   console.log('Have a great day! 👋 💕')
-} else {
-  console.log('There was an error configuring heartly eslint! 💔', { config, eslintRoot, json })
 }
