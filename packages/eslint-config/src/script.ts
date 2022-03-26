@@ -22,7 +22,7 @@ const errors = []
  */
 writeFile(
   pkgJSON,
-  JSON.stringify(json),
+  JSON.stringify(json, null, 2),
   (err) => errors.push(err) && console.log(`There was an error updating the package.json! Skipping 👯‍♀️, ${err}`),
 )
 
