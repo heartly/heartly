@@ -1,6 +1,6 @@
 {
   "name": "@heartly/eslint-config",
-  "version": "2.0.0-beta.2",
+  "version": "2.0.0-beta.3",
   "description": "Standard Eslint Config with Prettier for JavaScript Projects, by Heartly 💕",
   "main": "dist/index.js",
   "repository": "git@github.com:heartly/heartly.git",
@@ -14,7 +14,7 @@
     "dist/index.js",
     "dist/prettier.js",
     "dist/prettier.config.js",
-    "config/.eslintrc",
+    "config/.template-eslintrc",
     "README.md",
     "LICENSE"
   ],
