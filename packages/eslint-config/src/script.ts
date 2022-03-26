@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 const { resolve } = require('path')
-const { copyFile, writeFile } = require('fs').promises
+const {
+  constants: { COPYFILE_FICLONE_FORCE },
+  copyFile,
+  writeFile,
+} = require('fs')
 
 // eslint config pathing
 const config = resolve(__dirname, '../config/.template-eslintrc')
@@ -16,12 +20,12 @@ const errors = []
 /**
  * @note update the package json with the prettier config
  */
-writeFile(pkgJSON, JSON.stringify(json), (err) => err && errors.push(errors))
+writeFile(pkgJSON, JSON.stringify(json), COPYFILE_FICLONE_FORCE, (err) => errors.push(err))
 
 /**
  * @note copy the eslint config over
  */
-copyFile(config, eslintRoot, (err) => err && errors.push(errors))
+copyFile(config, eslintRoot, COPYFILE_FICLONE_FORCE, (err) => errors.push(err))
 
 if (errors.length === 0) {
   console.log('Have a great day! 👋 💕')
