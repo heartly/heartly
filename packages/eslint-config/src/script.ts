@@ -23,7 +23,9 @@ const errors = []
 writeFile(
   pkgJSON,
   JSON.stringify(json, null, 2),
-  (err) => errors.push(err) && console.log(`There was an error updating the package.json! Skipping 👯‍♀️, ${err}`),
+  (err) =>
+    errors.push(err) &&
+    console.log(`There was an error updating the package.json! Skipping 👯‍♀️${err ? `, ${err}` : ''}`),
 )
 
 /**
@@ -33,7 +35,7 @@ copyFile(
   config,
   eslintRoot,
   COPYFILE_EXCL,
-  (err) => errors.push(err) && console.log(`The eslint config exists already! Skipping 👯‍♀️, ${err}`),
+  (err) => errors.push(err) && console.log(`The eslint config exists already! Skipping 👯‍♀️${err ? `, ${err}` : ''}`),
 )
 
 if (errors.length === 0) {
