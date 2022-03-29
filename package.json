@@ -141,5 +141,10 @@
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.0.6"
+  },
+  "resolutions": {
+    "ansi-regex": "^5.0.1",
+    "marked": "^4.0.10",
+    "minimist": "^1.2.6"
   }
 }
