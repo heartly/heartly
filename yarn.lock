@@ -4855,9 +4855,9 @@ markdownlint@^0.25.0, markdownlint@~0.25.1:
     markdown-it "12.3.2"
 
 marked@^0.3.5, marked@^4.0.10:
-  version "4.0.14"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.14.tgz#7a3a5fa5c80580bac78c1ed2e3b84d7bd6fc3870"
-  integrity sha512-HL5sSPE/LP6U9qKgngIIPTthuxC0jrfxpYMZ3LdGDD3vTnLs59m2Z7r6+LNDR3ToqEQdkKd6YaaEfJhodJmijQ==
+  version "4.0.15"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.15.tgz#0216b7c9d5fcf6ac5042343c41d81a8b1b5e1b4a"
+  integrity sha512-esX5lPdTfG4p8LDkv+obbRCyOKzB+820ZZyMOXJZygZBHrH9b3xXR64X4kT3sPe9Nx8qQXbmcz6kFSMt4Nfk6Q==
 
 mdast-util-from-markdown@^0.8.5:
   version "0.8.5"
@@ -6647,9 +6647,9 @@ snapdragon@^0.8.1:
     use "^3.1.0"
 
 snyk@^1.316.1:
-  version "1.914.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.914.0.tgz#b98cc6feec4d8f44c38ec3b1a3088a84eab14e9f"
-  integrity sha512-fB9YUIhGSUb3rdvfxYKwYF/2VbXj7XvIkxS9Q2VbVcnDaE+z3yuYexxXRlVLrgTntzv9RKJ3PEQLGt/Xb2O60w==
+  version "1.915.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.915.0.tgz#1a3a6d6c220582fa3549f95d01cc35fe2fb08b59"
+  integrity sha512-1b7HkeFdD33hA/yWbAhenPIMJeqxR0w377+HsgIUHqDbbBVMvgEkz93tlZE3WigaiQ1J09R6bA4QA1/ELMnUNA==
 
 socks-proxy-agent@^5.0.0:
   version "5.0.0"
