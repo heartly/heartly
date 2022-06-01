@@ -39,10 +39,10 @@
     resolve-global "1.0.0"
     yargs "^17.0.0"
 
-"@commitlint/config-lerna-scopes@^16.0.0":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-16.2.4.tgz#80bbcd0058e61fe0be9e2d7ad22eaafdc494641b"
-  integrity sha512-aL77S0XZpVzDc7o6j3er1+Fff0JCuivLBmN3x4FlgVs84uWbxlXEomcH2/5jDaaqgpfEfcWXTg5IMoCByNYs6g==
+"@commitlint/config-lerna-scopes@^17.0.2":
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-17.0.2.tgz#6ce9253a57283a99dce79edc8377644853c44df2"
+  integrity sha512-skesAuJwTSnjoeNlPHgPpG8T4L7JZFMpZ2dA2EWWdO9oSRipKFezxoSLJ06mIkoMyWViwHekC9lkPb4FibYyiw==
   dependencies:
     globby "^11.0.1"
     import-from "4.0.0"
@@ -1306,9 +1306,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@>= 8", "@types/node@>=12", "@types/node@^17.0.0":
-  version "17.0.36"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.36.tgz#c0d5f2fe76b47b63e0e0efc3d2049a9970d68794"
-  integrity sha512-V3orv+ggDsWVHP99K3JlwtH20R7J4IhI1Kksgc+64q5VxgfRkQG8Ws3MFm/FZOKDYGy9feGFlZ70/HpCNe9QaA==
+  version "17.0.38"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.38.tgz#f8bb07c371ccb1903f3752872c89f44006132947"
+  integrity sha512-5jY9RhV7c0Z4Jy09G+NIDTsCZ5G0L5n+Z+p+Y7t5VJHM30bgwzSjVtlcBxqAj+6L/swIlvtOSzr8rBk/aNyV2g==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
