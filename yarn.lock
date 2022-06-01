@@ -39,10 +39,10 @@
     resolve-global "1.0.0"
     yargs "^17.0.0"
 
-"@commitlint/config-lerna-scopes@^16.0.0":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-16.2.4.tgz#80bbcd0058e61fe0be9e2d7ad22eaafdc494641b"
-  integrity sha512-aL77S0XZpVzDc7o6j3er1+Fff0JCuivLBmN3x4FlgVs84uWbxlXEomcH2/5jDaaqgpfEfcWXTg5IMoCByNYs6g==
+"@commitlint/config-lerna-scopes@^17.0.2":
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-lerna-scopes/-/config-lerna-scopes-17.0.2.tgz#6ce9253a57283a99dce79edc8377644853c44df2"
+  integrity sha512-skesAuJwTSnjoeNlPHgPpG8T4L7JZFMpZ2dA2EWWdO9oSRipKFezxoSLJ06mIkoMyWViwHekC9lkPb4FibYyiw==
   dependencies:
     globby "^11.0.1"
     import-from "4.0.0"
