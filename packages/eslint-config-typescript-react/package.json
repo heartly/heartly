@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^26.0.0",
     "eslint-plugin-json": "^3.0.0",
-    "eslint-plugin-markdown": "^2.0.0",
+    "eslint-plugin-markdown": "^3.0.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
