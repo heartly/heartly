@@ -6398,9 +6398,9 @@ smart-buffer@^4.2.0:
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
 snyk@^1.316.1:
-  version "1.975.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.975.0.tgz#70abb7ad58f0410f2ecd862e3dac1b60eb5cf4e7"
-  integrity sha512-M3vWLYK1XXLulUFXwrnWRy5q4cUAAItW9vZXd3TMIEH6f4AkJssOF7osDHmJ0u3v8xHLGL2vhN2k9KwFm9BAEQ==
+  version "1.977.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.977.0.tgz#904e55cb3d6d8036b16ff9f45eb32aa98ffc7fa5"
+  integrity sha512-d5xoUbBJWZfLq01UTRR2Y6j3p4DOGDSUsJY9mJnwYEePhMkpS5GLM/IPkSGyiI+lYUgbeStmlcDxexJHAfE5LA==
 
 socks-proxy-agent@^5.0.0:
   version "5.0.0"
