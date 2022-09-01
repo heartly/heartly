@@ -4882,9 +4882,9 @@ markdownlint@^0.26.0, markdownlint@~0.26.2:
     markdown-it "13.0.1"
 
 marked@^0.3.5, marked@^4.0.10:
-  version "4.0.19"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.19.tgz#d36198d1ac1255525153c351c68c75bc1d7aee46"
-  integrity sha512-rgQF/OxOiLcvgUAj1Q1tAf4Bgxn5h5JZTp04Fx4XUkVhs7B+7YA9JEWJhJpoO8eJt8MkZMwqLCNeNqj1bCREZQ==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.1.0.tgz#3fc6e7485f21c1ca5d6ec4a39de820e146954796"
+  integrity sha512-+Z6KDjSPa6/723PQYyc1axYZpYYpDnECDaU6hkaf5gqBieBkMKYReL5hteF2QizhlMbgbo8umXl/clZ67+GlsA==
 
 mdast-util-from-markdown@^0.8.5:
   version "0.8.5"
@@ -6563,9 +6563,9 @@ smart-buffer@^4.2.0:
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
 snyk@^1.316.1:
-  version "1.993.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.993.0.tgz#9c3c4741f8f478be5df6747106469a3f2e812662"
-  integrity sha512-+uzow9NlGjDCADDhFyftXKJuUZ6agKg+9jP0IYe/wPiBel3dqF9baoKj93wxZSlKEjHLDDAeSgZESwZbvdq1kw==
+  version "1.995.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.995.0.tgz#b807e853d06a85aa172509ce76f4118b890598c5"
+  integrity sha512-rd0iWW8jr/e6lQ2ncnXbfAXPnBdjQP95dFCdltQf3HwjCTE6vTgH0iiKTlglfR33VrNJJVrjsV527qrlMIiZXQ==
 
 socks-proxy-agent@^6.1.1:
   version "6.2.0"
