@@ -1,5 +1,5 @@
 {
-  "name": "@heartly/root",
+  "name": "@heartly/cli",
   "version": "0.0.1",
   "description": "Heartly is tool for providing helpful documentation and config to code repositories. 💕",
   "main": "README.md",
@@ -8,41 +8,11 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist --force-local --stict",
-    "build": "lerna exec --no-bail --stream yarn build && yarn test:files-exist",
-    "chore:delete-changelog-branch": "if git show-ref --quiet refs/heads/chore-changelog; then git branch -D chore-changelog; fi",
-    "chore:branch": "git checkout -b chore-changelog",
-    "chore:changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
-    "chore:setup-next-work": "git checkout master && yarn chore:delete-changelog-branch",
-    "chore:pr": "git add . && git commit -m '[chore] updates changelog' --no-verify && git push origin chore-changelog -f",
-    "chore:setup-changelog": "git checkout master && git pull",
-    "chore": "yarn chore:delete-changelog-branch && yarn chore:branch && yarn chore:changelog && yarn chore:pr && yarn chore:setup-next-work",
-    "commit": "git-cz",
-    "commit:retry": "git-cz --retry",
-    "commitmsg": "commitlint -e",
-    "deploy:script": "yarn build && lerna publish from-package --ignore-scripts --canary --yes",
-    "deploy": "branch=$(git rev-parse --symbolic-full-name --abbrev-ref HEAD); if [[ $branch == 'master' ]]; then yarn deploy:script; else echo 'deploy should be run on master'; fi;",
-    "eslint": "eslint",
-    "lint": "npm run eslint --fix",
-    "lint:ci": "npm run eslint",
-    "load": "yarn load:root && yarn load:packages",
-    "load:packages": "lerna exec --parallel yarn",
-    "load:root": "yarn",
-    "markdownlint": "markdownlint *.md",
-    "pre-commit-msg": "Echo 'Running pre-commit checks...' && exit 0",
-    "postpublish": "git tag $npm_package_version && git push origin --tags && yarn chore",
-    "prebuild": "yarn load",
-    "precommit": "yarn build && yarn test && yarn tsc && lint-staged",
-    "release": "yarn lint && yarn build && npm test && yarn report:coverage",
-    "refresh": "yarn remove:packages && yarn load && yarn bootstrap",
-    "remove": "yarn remove:dist && yarn remove:packages",
-    "remove:dist": "rimraf packages/**/dist",
-    "remove:packages": "rimraf node_modules && rimraf packages/**/node_modules",
-    "spelling": "mdspell '**/*.md' '!**/node_modules/**/*.md' --ignore-numbers",
-    "spelling:ci": "mdspell '**/*.md' '!**/node_modules/**/*.md' --ignore-numbers --report",
-    "test": "yarn lint:ci && yarn tsc",
-    "test:files-exist": "lerna exec --parallel yarn test",
-    "tsc": "tsc -p ./tsconfig.test.json"
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "precommit": "pnpm run build && lint-staged",
+    "test": "pnpm run lint && pnpm run build",
+    "typecheck": "turbo run typecheck"
   },
   "repository": "git+https://github.com/heartly/heartly.git",
   "author": {
@@ -56,30 +26,25 @@
   },
   "homepage": "https://github.com/heartly/heartly#readme",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.1",
+    "@commitlint/cli": "^17.1.2",
     "@commitlint/config-lerna-scopes": "^17.0.2",
-    "@commitlint/prompt": "^17.0.0",
-    "@types/node": "^18.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.0.0",
-    "@typescript-eslint/parser": "^4.14.1",
-    "commitizen": "^4.0.3",
-    "conventional-changelog": "^3.1.18",
-    "eslint": "^7.0.0",
+    "@commitlint/prompt": "^17.1.2",
+    "@types/node": "^18.7.18",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "commitizen": "^4.2.5",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.1",
-    "lerna": "^5.0.0",
-    "lint-staged": "^13.0.0",
-    "markdown-spellcheck": "^1.3.1",
-    "markdownlint": "^0.26.0",
-    "markdownlint-cli": "^0.32.0",
+    "lint-staged": "^13.0.3",
     "path-exists-cli": "^2.0.0",
-    "prettier": "^2.0.4",
+    "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "ts-node": "^10.7.0",
-    "tslib": "^2.3.1",
-    "typescript": "^4.0.2",
-    "weallbehave": "^1.2.0",
-    "write-good": "^1.0.2"
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "tsutils": "^3.21.0",
+    "turbo": "^1.4.7",
+    "typescript": "^4.8.3"
   },
   "config": {
     "commitizen": {
@@ -125,22 +90,13 @@
       ]
     }
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "post-checkout": "if [[ $HUSKY_GIT_PARAMS =~ 1$ ]]; then yarn; fi",
-      "post-merge": "yarn && yarn build",
-      "post-rewrite": "yarn",
-      "pre-commit": "yarn tsc && lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{ts,tsx,js,jsx,json,md}": [
-      "yarn lint"
+      "eslint --fix"
     ]
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.0.6"
+    "@rushstack/eslint-patch": "^1.2.0"
   },
   "resolutions": {
     "ansi-regex": "^5.0.1",

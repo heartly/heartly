@@ -63,3 +63,4 @@ typings/
 packages/**/dist
 
 .dccache
+packages/**/pnpm-lock.yaml
