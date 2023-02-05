@@ -1,0 +1,23 @@
+{
+  "codependencies": [
+    "@commitlint/cli",
+    "@commitlint/config-lerna-scopes",
+    "@commitlint/prompt",
+    "@types/node",
+    "@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser",
+    "commitizen",
+    "eslint",
+    "eslint-config-prettier",
+    "husky",
+    "lint-staged",
+    "path-exists-cli",
+    "prettier",
+    "rimraf",
+    "ts-node",
+    "tslib",
+    "tsutils",
+    "turbo",
+    "typescript"
+  ]
+}
