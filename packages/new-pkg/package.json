@@ -23,7 +23,7 @@
     "fs-extra": "^11.1.0"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.13",
+    "@types/fs-extra": "^11.0.1",
     "@types/node": "^18.7.18"
   }
 }
