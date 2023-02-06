@@ -20,7 +20,7 @@
   "dependencies": {
     "commander": "^9.4.0",
     "enquirer": "^2.3.6",
-    "fs-extra": "^10.1.0"
+    "fs-extra": "^11.1.0"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
