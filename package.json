@@ -27,9 +27,9 @@
   },
   "homepage": "https://github.com/heartly/heartly#readme",
   "devDependencies": {
-    "@commitlint/cli": "17.4.3",
+    "@commitlint/cli": "17.4.4",
     "@commitlint/config-lerna-scopes": "17.4.2",
-    "@commitlint/prompt": "17.4.3",
+    "@commitlint/prompt": "17.4.4",
     "@types/node": "18.13.0",
     "@typescript-eslint/eslint-plugin": "5.52.0",
     "@typescript-eslint/parser": "5.51.0",
