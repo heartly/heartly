@@ -41,7 +41,7 @@
     "lint-staged": "13.2.1",
     "path-exists-cli": "^2.0.0",
     "prettier": "2.8.7",
-    "rimraf": "4.4.1",
+    "rimraf": "5.0.0",
     "ts-node": "^10.9.1",
     "tslib": "2.5.0",
     "tsutils": "^3.21.0",
