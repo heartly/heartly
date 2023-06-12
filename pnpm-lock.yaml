@@ -210,8 +210,8 @@ importers:
   packages/new-pkg:
     dependencies:
       commander:
-        specifier: ^10.0.0
-        version: 10.0.0
+        specifier: ^10.0.1
+        version: 10.0.1
       enquirer:
         specifier: ^2.3.6
         version: 2.3.6
@@ -1469,14 +1469,9 @@ packages:
     resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==}
     dev: true
 
-  /commander@10.0.0:
-    resolution: {integrity: sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==}
-    engines: {node: '>=14'}
-
   /commander@10.0.1:
     resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
     engines: {node: '>=14'}
-    dev: false
 
   /commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
@@ -3298,7 +3293,7 @@ packages:
     dependencies:
       chalk: 5.2.0
       cli-truncate: 3.1.0
-      commander: 10.0.0
+      commander: 10.0.1
       debug: 4.3.4
       execa: 7.1.1
       lilconfig: 2.1.0
