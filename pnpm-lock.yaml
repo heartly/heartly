@@ -10,8 +10,8 @@ importers:
   .:
     dependencies:
       '@rushstack/eslint-patch':
-        specifier: ^1.2.0
-        version: 1.2.0
+        specifier: ^1.3.2
+        version: 1.3.2
     devDependencies:
       '@commitlint/cli':
         specifier: 17.6.5
@@ -77,8 +77,8 @@ importers:
   packages/eslint-config:
     dependencies:
       '@rushstack/eslint-patch':
-        specifier: ^1.0.6
-        version: 1.2.0
+        specifier: ^1.3.2
+        version: 1.3.2
       eslint:
         specifier: ^8.42.0
         version: 8.42.0
@@ -98,8 +98,8 @@ importers:
   packages/eslint-config-typescript:
     dependencies:
       '@rushstack/eslint-patch':
-        specifier: ^1.0.6
-        version: 1.2.0
+        specifier: ^1.3.2
+        version: 1.3.2
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.59.9
         version: 5.59.9(@typescript-eslint/parser@5.59.11)(eslint@8.42.0)(typescript@5.1.3)
@@ -149,8 +149,8 @@ importers:
   packages/eslint-config-typescript-react:
     dependencies:
       '@rushstack/eslint-patch':
-        specifier: ^1.0.6
-        version: 1.2.0
+        specifier: ^1.3.2
+        version: 1.3.2
       eslint:
         specifier: ^8.42.0
         version: 8.42.0
@@ -597,8 +597,8 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@rushstack/eslint-patch@1.2.0:
-    resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
+  /@rushstack/eslint-patch@1.3.2:
+    resolution: {integrity: sha512-V+MvGwaHH03hYhY+k6Ef/xKd6RYlc4q8WBx+2ANmipHJcKuktNcI/NgEsJgdSUF6Lw32njT6OnrRsKYCdgHjYw==}
     dev: false
 
   /@sentry-internal/tracing@7.54.0:
