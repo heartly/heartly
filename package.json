@@ -31,7 +31,7 @@
     "@commitlint/config-lerna-scopes": "17.6.3",
     "@commitlint/prompt": "17.6.5",
     "@types/node": "20.3.0",
-    "@typescript-eslint/eslint-plugin": "5.59.9",
+    "@typescript-eslint/eslint-plugin": "5.59.11",
     "@typescript-eslint/parser": "5.59.11",
     "codependence": "^0.2.6",
     "commitizen": "4.3.0",
