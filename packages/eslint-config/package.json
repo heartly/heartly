@@ -37,7 +37,7 @@
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^3.0.0",
     "shelljs": "^0.8.5",
-    "snyk": "^1.1190.0"
+    "snyk": "^1.1192.0"
   },
   "snyk": true
 }
