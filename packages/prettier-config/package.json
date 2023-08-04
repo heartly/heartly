@@ -18,7 +18,7 @@
     "test:index-exists": "path-exists ./dist/index.js && echo '✅`./dist/index.js` exists' || (echo '😭`./dist/index.js` does not exist'; . exit)"
   },
   "dependencies": {
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.1"
   },
   "publishConfig": {
     "access": "public"
