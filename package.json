@@ -98,7 +98,7 @@
     ]
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.3.2"
+    "@rushstack/eslint-patch": "^1.3.3"
   },
   "resolutions": {
     "ansi-regex": "^5.0.1",
