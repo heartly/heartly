@@ -21,8 +21,8 @@ importers:
         specifier: 17.6.7
         version: 17.6.7
       '@commitlint/config-lerna-scopes':
-        specifier: 17.6.6
-        version: 17.6.6
+        specifier: 17.7.0
+        version: 17.7.0
       '@commitlint/prompt':
         specifier: 17.6.5
         version: 17.6.5
@@ -283,8 +283,8 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-lerna-scopes@17.6.6:
-    resolution: {integrity: sha512-txGAmX2v6QKyoocTy7opM0UaR0ByVJ6YF+AxfRF5IyBL/qvBMyaFCJEM1OgXflmVD8NxzgETp3iM/npT3uxoCg==}
+  /@commitlint/config-lerna-scopes@17.7.0:
+    resolution: {integrity: sha512-fMIDgStYnCTYjGLqPM7UO1YQk1gdskforUUeOSqYrx58810K8xHnZoJu7T8WEkw5mx3yUJ2FuEPAfmk/7w6pvQ==}
     engines: {node: '>=v14'}
     peerDependencies:
       lerna: ^5.0.0 || ^6
@@ -295,7 +295,7 @@ packages:
       '@lerna/project': 6.4.1
       glob: 8.1.0
       import-from: 4.0.0
-      semver: 7.5.2
+      semver: 7.5.4
     dev: true
 
   /@commitlint/config-validator@17.4.4:
@@ -3634,7 +3634,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       hosted-git-info: 3.0.8
-      semver: 7.5.2
+      semver: 7.5.4
       validate-npm-package-name: 3.0.0
     dev: true
 
@@ -4255,6 +4255,14 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
+
+  /semver@7.5.4:
+    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
 
   /serialize-error@7.0.1:
     resolution: {integrity: sha512-8I8TjW5KMOKsZQTvoxjuSIa7foAwPWGOts+6o7sgjz41/qMD9VQHEDxi6PBvK2l0MXUmqZyNpUK+T2tQaaElvw==}
