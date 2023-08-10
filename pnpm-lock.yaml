@@ -40,7 +40,7 @@ importers:
         version: 0.2.6
       commitizen:
         specifier: 4.3.0
-        version: 4.3.0
+        version: 4.3.0(@types/node@20.4.8)(typescript@5.1.6)
       eslint:
         specifier: 8.45.0
         version: 8.45.0
@@ -201,8 +201,8 @@ importers:
   packages/markdownlint-config:
     dependencies:
       markdownlint:
-        specifier: ^0.29.0
-        version: 0.29.0
+        specifier: ^0.30.0
+        version: 0.30.0
       markdownlint-cli:
         specifier: ^0.35.0
         version: 0.35.0
@@ -1438,13 +1438,13 @@ packages:
     engines: {node: ^12.20.0 || >=14}
     dev: true
 
-  /commitizen@4.3.0:
+  /commitizen@4.3.0(@types/node@20.4.8)(typescript@5.1.6):
     resolution: {integrity: sha512-H0iNtClNEhT0fotHvGV3E9tDejDeS04sN1veIebsKYGMuGscFaswRoYJKmT3eW85eIJAs0F28bG2+a/9wCOfPw==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
       cachedir: 2.3.0
-      cz-conventional-changelog: 3.3.0
+      cz-conventional-changelog: 3.3.0(@types/node@20.4.8)(typescript@5.1.6)
       dedent: 0.7.0
       detect-indent: 6.1.0
       find-node-modules: 2.1.3
@@ -1458,8 +1458,8 @@ packages:
       strip-bom: 4.0.0
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
+      - '@types/node'
+      - typescript
     dev: true
 
   /compare-func@2.0.0:
@@ -1568,21 +1568,21 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  /cz-conventional-changelog@3.3.0:
+  /cz-conventional-changelog@3.3.0(@types/node@20.4.8)(typescript@5.1.6):
     resolution: {integrity: sha512-U466fIzU5U22eES5lTNiNbZ+d8dfcHcssH4o7QsdWaCcRs/feIPCxKYSWkYBNs5mny7MvEfwpTLWjvbm94hecw==}
     engines: {node: '>= 10'}
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.0
+      commitizen: 4.3.0(@types/node@20.4.8)(typescript@5.1.6)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
       word-wrap: 1.2.4
     optionalDependencies:
-      '@commitlint/load': 17.6.7
+      '@commitlint/load': 17.7.0(@types/node@20.4.8)(typescript@5.1.6)
     transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
+      - '@types/node'
+      - typescript
     dev: true
 
   /dargs@7.0.0:
@@ -3423,12 +3423,25 @@ packages:
     engines: {node: '>=16'}
     dev: false
 
+  /markdownlint-micromark@0.1.7:
+    resolution: {integrity: sha512-BbRPTC72fl5vlSKv37v/xIENSRDYL/7X/XoFzZ740FGEbs9vZerLrIkFRY0rv7slQKxDczToYuMmqQFN61fi4Q==}
+    engines: {node: '>=16'}
+    dev: false
+
   /markdownlint@0.29.0:
     resolution: {integrity: sha512-ASAzqpODstu/Qsk0xW5BPgWnK/qjpBQ4e7IpsSvvFXcfYIjanLTdwFRJK1SIEEh0fGSMKXcJf/qhaZYHyME0wA==}
     engines: {node: '>=16'}
     dependencies:
       markdown-it: 13.0.1
       markdownlint-micromark: 0.1.5
+    dev: false
+
+  /markdownlint@0.30.0:
+    resolution: {integrity: sha512-nInuFvI/rEzanAOArW5490Ez4EYpB5ODqVM0mcDYCPx9DKJWCQqCgejjiCvbSeE7sjbDscVtZmwr665qpF5xGA==}
+    engines: {node: '>=16'}
+    dependencies:
+      markdown-it: 13.0.1
+      markdownlint-micromark: 0.1.7
     dev: false
 
   /matcher@3.0.0:
