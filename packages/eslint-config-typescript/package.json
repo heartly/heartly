@@ -42,7 +42,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
     "prettier": "^3.0.1",
-    "snyk": "^1.1200.0"
+    "snyk": "^1.1201.0"
   },
   "snyk": true
 }
