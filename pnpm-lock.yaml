@@ -96,8 +96,8 @@ importers:
         specifier: ^0.8.5
         version: 0.8.5
       snyk:
-        specifier: ^1.1204.0
-        version: 1.1204.0
+        specifier: ^1.1205.0
+        version: 1.1205.0
 
   packages/eslint-config-typescript:
     dependencies:
@@ -147,8 +147,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       snyk:
-        specifier: ^1.1204.0
-        version: 1.1204.0
+        specifier: ^1.1205.0
+        version: 1.1205.0
 
   packages/eslint-config-typescript-react:
     dependencies:
@@ -641,7 +641,7 @@ packages:
       is-glob: 4.0.3
       open: 9.1.0
       picocolors: 1.0.0
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /@rushstack/eslint-patch@1.3.3:
@@ -4442,8 +4442,8 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: true
 
-  /snyk@1.1204.0:
-    resolution: {integrity: sha512-gbv7LfWgWPx5HUgndYZ6fx9rYWsN4DHvZ7UflphEi5HAf40c/dYvjkiEIR9B1VipF/Y687prJlKwNjWIacnX1Q==}
+  /snyk@1.1205.0:
+    resolution: {integrity: sha512-pYnSzBQXZPtPjHZ/VWmu6/dGj0yae6wKddarAZdeCIWnm8RSJ194mormeccprZ6IK8RwAxApZcL2hET5mDjxnA==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -4657,7 +4657,7 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@pkgr/utils': 2.4.2
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /text-extensions@1.9.0:
@@ -4791,13 +4791,8 @@ packages:
   /tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
 
-  /tslib@2.6.1:
-    resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
-    dev: false
-
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
-    dev: true
 
   /tsutils@3.21.0(typescript@5.1.6):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
