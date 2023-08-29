@@ -96,8 +96,8 @@ importers:
         specifier: ^0.8.5
         version: 0.8.5
       snyk:
-        specifier: ^1.1206.0
-        version: 1.1206.0
+        specifier: ^1.1207.0
+        version: 1.1207.0
 
   packages/eslint-config-typescript:
     dependencies:
@@ -147,8 +147,8 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
       snyk:
-        specifier: ^1.1206.0
-        version: 1.1206.0
+        specifier: ^1.1207.0
+        version: 1.1207.0
 
   packages/eslint-config-typescript-react:
     dependencies:
@@ -4442,8 +4442,8 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: true
 
-  /snyk@1.1206.0:
-    resolution: {integrity: sha512-k55uUELMCRm1024gE77Gr+WwW/FbGJILbbgAOVtAOJPh7vscYbs0CvjyAAtO6RVIQ5r+34HDpt6La5f/V7CCEg==}
+  /snyk@1.1207.0:
+    resolution: {integrity: sha512-wQaHqhGDmnFhoZcavaZE1TWHyIl//oVMz+x9lpit+DwntngMFKCWll2TkfdRWldqN+OihqaK+jzCDR9u3Bk/fA==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
