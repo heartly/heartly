@@ -19,7 +19,7 @@
     "test:index-exists": "path-exists ./dist/markdownlint.json && echo '✅`./dist/markdownlint.json` exists' || (echo '😭`./dist/markdownlint.json` does not exist'; . exit)"
   },
   "dependencies": {
-    "markdownlint": "^0.31.0",
+    "markdownlint": "^0.31.1",
     "markdownlint-cli": "^0.36.0"
   },
   "devDependencies": {
